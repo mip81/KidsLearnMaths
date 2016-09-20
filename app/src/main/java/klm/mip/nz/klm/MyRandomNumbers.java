@@ -13,7 +13,7 @@ public class MyRandomNumbers {
             newWrongAnswer = new Random().nextInt(10);;
             isConsist = false;
             for (int i : answers) {
-                if (i == newWrongAnswer) isConsist = true;
+                if (i == newWrongAnswer && newWrongAnswer >= 0) isConsist = true;
 
             }
         }

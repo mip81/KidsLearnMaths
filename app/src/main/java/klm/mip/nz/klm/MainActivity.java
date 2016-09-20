@@ -1,11 +1,14 @@
 package klm.mip.nz.klm;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,8 +55,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void doExit(){
-
-        System.exit(0);
+    public void doExit(View view){
+        this.finish();
+        //System.exit(0);
     }
+
+    public void doRandomPlay(View view) {
+        String[] arrSign = {"-", "+", "/", "*"};
+        Intent intent = new Intent(this, MainOperationActivity.class);
+        intent.putExtra("sign", arrSign[new Random().nextInt(4)]);
+        startActivity(intent);
+    }
+
 }

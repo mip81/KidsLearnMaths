@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/minus.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/minus.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/qm.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/qm.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_answer_2.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_answer_2.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_m.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_m.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_answer_3.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_answer_3.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/exit_pressed.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/exit_pressed.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/plus_pressed.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/plus_pressed.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_minus.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_minus.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/plus.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/plus.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/minus_pressed.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/minus_pressed.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/logo_m.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/logo_m.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/logo_sub.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/logo_sub.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/logo_add.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/logo_add.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_exit.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_exit.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/exit.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/exit.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/div_pressed.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/div_pressed.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/m_pressed.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/m_pressed.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/background.jpg",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/background.jpg"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/qm_pressed.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/qm_pressed.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/logo.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/m.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/m.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_answer_1.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_answer_1.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_answer_4.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_answer_4.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_plus.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_plus.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/div.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/div.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_div.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_div.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_qm.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_qm.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/logo_div.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/logo_div.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_back.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_back.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_ratingbar_full_material.xml"
+    }
+]

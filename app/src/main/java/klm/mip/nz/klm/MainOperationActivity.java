@@ -85,8 +85,17 @@ public class MainOperationActivity extends AppCompatActivity {
 
 
         Random random = new Random();
-        int no1 = random.nextInt(10) + level;
-        int no2 = random.nextInt(10) + level;
+
+            int no1 = random.nextInt(10) + level;
+            int no2 = random.nextInt(10) + level;
+
+
+        if(sign.equals("/")){
+           while ((no1 % no2) != 0){
+                no1 = random.nextInt(10) + level;
+                no2 = random.nextInt(10) + level;
+           }
+        }
 
         if(questionNo % 5 == 0) level++;
 
@@ -179,6 +188,12 @@ public class MainOperationActivity extends AppCompatActivity {
     public void goBack(View view){
         Intent back = new Intent(this, MainActivity.class);
         startActivity(back);
+    }
+
+    // Count the time
+    private void doCount(){
+
+
     }
 
 
