@@ -3,42 +3,34 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="#fcffaf">
+    android:background="@drawable/background"
+    android:measureWithLargestChild="true"
+    android:baselineAligned="true">
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="53dp"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
         android:layout_marginBottom="20dp"
-        android:gravity="center_horizontal">
+        android:layout_margin="5dp"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp">
 
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Kids Learn"
-            android:id="@+id/tvLogo"
-            android:textAlignment="center"
-            android:textColor="#962cf3"
-            android:textSize="45dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Blank"
-            android:id="@+id/tvName"
-            android:textAlignment="center"
-            android:textColor="#962cf3"
-            android:textSize="45dp" />
-
+            android:id="@+id/ivLogo"
+            android:src="@drawable/logo_div" />
     </LinearLayout>
+
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="71dp"
-        android:layout_marginLeft="10dp">
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -51,14 +43,17 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Question : "
                 android:id="@+id/tvQestionLbl"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#6c99fa" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="1/10"
-                android:id="@+id/tvNumQuestion" />
+                android:id="@+id/tvNumQuestion"
+                android:textColor="#f3ec24"
+                android:textStyle="bold" />
             <View
                 android:layout_width="50dp"
                 android:layout_height="5dp"
@@ -71,14 +66,17 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Level : "
                 android:id="@+id/tvLevelLbl"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#fb5569" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="1"
-                android:id="@+id/tvNumLevel" />
+                android:id="@+id/tvNumLevel"
+                android:textStyle="bold"
+                android:textColor="#f3ec24" />
         </TableRow>
 
         <TableRow
@@ -91,14 +89,17 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Score : "
                 android:id="@+id/tvLblScore"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#f46bd9" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="0"
-                android:id="@+id/tvScore" />
+                android:id="@+id/tvScore"
+                android:textColor="#f3ec24"
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="50dp"
@@ -113,16 +114,51 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Time : "
                 android:id="@+id/tvTimeLbl"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#7cfb38" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="10"
-                android:id="@+id/tvTime" />
+                android:id="@+id/tvTime"
+                android:textColor="#f3ec24"
+                android:textStyle="bold" />
         </TableRow>
+
     </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chances:"
+            android:id="@+id/tvChancesLbl"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:textColor="#ff6f65"
+            android:textColorHighlight="#ff0000"
+            android:gravity="fill_horizontal|center_vertical"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/tvChances"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#f3ec24"
+            android:gravity="fill_horizontal|center_vertical" />
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -130,7 +166,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:weightSum="1"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp">
 
 
         <TextView
@@ -141,8 +179,8 @@
             android:id="@+id/tvX"
             android:textStyle="bold"
             android:textSize="50sp"
-            android:gravity="center"
-            android:background="#449cff61" />
+            android:background="#bdf924"
+            android:gravity="center_vertical|center_horizontal" />
 
         <TextView
             android:layout_width="60dp"
@@ -152,8 +190,8 @@
             android:id="@+id/tvSign"
             android:textStyle="bold"
             android:textSize="50sp"
-            android:gravity="center"
-            android:background="#ffc2c2" />
+            android:background="#ffc2c2"
+            android:gravity="center_vertical|center_horizontal" />
 
         <TextView
             android:layout_width="60dp"
@@ -163,8 +201,8 @@
             android:id="@+id/tvY"
             android:textStyle="bold"
             android:textSize="50sp"
-            android:gravity="center"
-            android:background="#fa9dff" />
+            android:background="#fa9dff"
+            android:gravity="center_vertical|center_horizontal" />
 
         <TextView
             android:layout_width="60dp"
@@ -174,8 +212,8 @@
             android:id="@+id/tvEq"
             android:textStyle="bold"
             android:textSize="50sp"
-            android:gravity="center"
-            android:background="#84edfd" />
+            android:background="#84edfd"
+            android:gravity="center_vertical|center_horizontal" />
 
         <TextView
             android:layout_width="60dp"
@@ -184,8 +222,9 @@
             android:text="\?"
             android:id="@+id/tvAnswer"
             android:textSize="50sp"
-            android:gravity="center"
-            android:background="#f788af" />
+            android:background="#f788af"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
     </LinearLayout>
 
     <TableLayout
@@ -194,21 +233,8 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center|center_horizontal">
+            android:gravity="center">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Chances: "
-                android:id="@+id/tvChancesLbl" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="0"
-                android:id="@+id/tvChances" />
         </TableRow>
 
         <TableRow
@@ -269,13 +295,14 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textAllCaps="false"
                 android:text="Go Back"
                 android:id="@+id/btnBack"
-                android:layout_span="2" />
+                android:layout_span="2"
+                android:onClick="goBack" />
         </TableRow>
 
     </TableLayout>
-
 
 
 </LinearLayout>

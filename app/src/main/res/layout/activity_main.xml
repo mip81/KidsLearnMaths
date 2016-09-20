@@ -1,12 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="#fcffaf">
+    android:background="@drawable/background"
+    android:orientation="vertical">
 
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp" />
 
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_vertical|center_horizontal">
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/btnDiv"
+                android:background="@drawable/btn_div"
+                android:tag="/"
+                android:onClick="doPlay"/>
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/btnM"
+                android:background="@drawable/btn_m"
+                android:tag="*"
+                android:onClick="doPlay"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/btnPlus"
+                android:background="@drawable/btn_plus"
+                android:tag="+"
+                android:onClick="doPlay"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnMinus"
+                android:background="@drawable/btn_minus"
+                android:tag="-"
+                android:onClick="doPlay"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/btnQm"
+                android:background="@drawable/btn_qm"
+                android:tag="qm"
+                android:onClick="doPlay"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExit"
+                android:background="@drawable/btn_exit"
+                android:tag="exit"
+                android:onClick="doPlay"/>
+        </TableRow>
+    </TableLayout>
 </LinearLayout>

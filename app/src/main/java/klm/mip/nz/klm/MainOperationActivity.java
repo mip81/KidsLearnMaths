@@ -8,6 +8,7 @@ import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,18 +39,19 @@ public class MainOperationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_operation);
 
-      //  sign = this.getIntent().getExtras().getString("operator");
+        // get operation from the main activity
+        sign = this.getIntent().getExtras().getString("sign");
 
        tvScore = (TextView) findViewById(R.id.tvScore);
        tvLevel = (TextView)findViewById(R.id.tvNumLevel);
        tvQuestion = (TextView)findViewById(R.id.tvNumQuestion);
        tvChances = (TextView)findViewById(R.id.tvChances);
        tvTime = (TextView)findViewById(R.id.tvTime);
-       tvName = (TextView)findViewById(R.id.tvName);
+
        tvX = (TextView)findViewById(R.id.tvX);
        tvY = (TextView)findViewById(R.id.tvY);
        tvSign = (TextView)findViewById(R.id.tvSign);
-
+        tvSign.setText(sign);
 
 
         btn1 = (Button) findViewById(R.id.btn1);
@@ -58,7 +60,16 @@ public class MainOperationActivity extends AppCompatActivity {
         btn4 = (Button) findViewById(R.id.btn4);
         btnBack = (Button) findViewById(R.id.btnBack);
 
+        //Assign the logo
+        switch (sign){
+            case "-": ((ImageView)findViewById(R.id.ivLogo)).setImageResource(R.drawable.logo_sub); break;
+            case "+": ((ImageView)findViewById(R.id.ivLogo)).setImageResource(R.drawable.logo_add); break;
+            case "/": ((ImageView)findViewById(R.id.ivLogo)).setImageResource(R.drawable.logo_div); break;
+            case "*": ((ImageView)findViewById(R.id.ivLogo)).setImageResource(R.drawable.logo_m); break;
+        }
+
         loadData();
+        getSupportActionBar().hide();
 
     }
 
@@ -83,17 +94,26 @@ public class MainOperationActivity extends AppCompatActivity {
         tvY.setText(""+no2);
 
 
-        int  itnBtnForCorrectAnswer = random.nextInt(3);
+        int  itnBtnForCorrectAnswer = random.nextInt(4);
 
                 String wrongAnswer1 = null;
                 String wrongAnswer2 = null;
                 String wrongAnswer3 = null;
 
 
-        if(tvSign.getText().toString().equals("+"))
-        {
-
+        if(sign.equals("+"))
             correctAnswer = String.valueOf(no1 + no2);
+
+        if(sign.equals("-"))
+            correctAnswer = String.valueOf(no1 - no2);
+
+        if(sign.equals("/"))
+            correctAnswer = String.valueOf(no1 / no2);
+
+        if(sign.equals("*"))
+            correctAnswer = String.valueOf(no1 * no2);
+
+
             wrongAnswer1 =  String.valueOf( MyRandomNumbers.getWrongAnswer( Integer.parseInt(correctAnswer) ) );
             wrongAnswer2 =  String.valueOf( MyRandomNumbers.getWrongAnswer( Integer.parseInt(correctAnswer)
                                                                         ,  Integer.parseInt(wrongAnswer1) ));
@@ -132,7 +152,7 @@ public class MainOperationActivity extends AppCompatActivity {
 
 
 
-        }
+
 
     }
     public void btnClick(View view){
@@ -154,11 +174,9 @@ public class MainOperationActivity extends AppCompatActivity {
         questionNo++;
         loadData();
 
-        Toast.makeText(MainOperationActivity.this, "Button pressed"+((Button)view).getText(), Toast.LENGTH_SHORT).show();
-
     }
 
-    public void btnBack(View view){
+    public void goBack(View view){
         Intent back = new Intent(this, MainActivity.class);
         startActivity(back);
     }
