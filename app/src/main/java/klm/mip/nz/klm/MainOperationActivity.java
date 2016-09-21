@@ -1,12 +1,9 @@
 package klm.mip.nz.klm;
 
 import android.content.Intent;
-import android.net.Uri;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringDef;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -16,30 +13,24 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
-
-import org.w3c.dom.Text;
-
 import java.util.Calendar;
 import java.util.Random;
-import java.util.concurrent.RunnableFuture;
 
 /**
  * Created by mikhailpastushkov on 9/20/16.
  */
 public class MainOperationActivity extends AppCompatActivity {
 
-    Handler handler;
-    TextView tvEven , tvOdd;
+    private Handler handler;
+    private int timer = 20;
 
-    TextView tvScore, tvLevel, tvQuestion, tvChances;
-    TextView tvTime, tvName, tvAnswer, tvX, tvY, tvSign;
-    Chronometer chrono;
-    Button btn1, btn2, btn3, btn4, btnBack;
-    String receivedAnswer = "";
-    String correctAnswer = "";
+    private TextView tvScore, tvLevel, tvQuestion, tvChances;
+    private TextView tvTime, tvName, tvAnswer, tvX, tvY, tvSign;
+    private Chronometer chrono;
+    private Button btn1, btn2, btn3, btn4, btnBack;
+    private String receivedAnswer = "";
+    private String correctAnswer = "";
+    private int btnIdRightAnsw;
 
 
     private String activityName = "";
@@ -48,16 +39,12 @@ public class MainOperationActivity extends AppCompatActivity {
     private int level = 1;
     private int questionNo = 1;
     private String sign = "";
-
+    private CountDown countThread = new CountDown();
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_operation);
-
-        //TEST
-        tvEven = (TextView)findViewById(R.id.tvEven);
-        tvOdd = (TextView)findViewById(R.id.tvOdd);
 
         // get operation from the main activity
         sign = this.getIntent().getExtras().getString("sign");
@@ -80,6 +67,8 @@ public class MainOperationActivity extends AppCompatActivity {
         btn4 = (Button) findViewById(R.id.btn4);
         btnBack = (Button) findViewById(R.id.btnBack);
 
+        handler = new Handler();
+
         //Assign the logo
         switch (sign) {
             case "-":
@@ -96,19 +85,17 @@ public class MainOperationActivity extends AppCompatActivity {
                 break;
         }
 
-        chrono.start();
         loadData();
         getSupportActionBar().hide();
 
-        // Test
-        handler = new Handler();
-        new MyThreadEven().start();
-        new MyThreadOdd().start();
-
+        countThread.start();
 
     }
 
 
+
+
+    // LOAD DATA FOR NEW GAME
     private void loadData() {
 
         tvScore.setText("" + score);
@@ -125,11 +112,13 @@ public class MainOperationActivity extends AppCompatActivity {
 
 
         if (sign.equals("/")) {
-            while ((no1 % no2) != 0) {
+            while ( (no1 % no2) != 0 && (no1 > no2) ) {
                 no1 = random.nextInt(10) + level;
                 no2 = random.nextInt(10) + level;
             }
         }
+
+
 
         if (questionNo % 5 == 0) level++;
 
@@ -168,28 +157,31 @@ public class MainOperationActivity extends AppCompatActivity {
                 , Integer.parseInt(wrongAnswer2)));
 
         if (itnBtnForCorrectAnswer == 0) {
-            btn1.setText(correctAnswer);
+            btn1.setText(correctAnswer); btnIdRightAnsw = btn1.getId();
             btn2.setText(wrongAnswer1);
             btn3.setText(wrongAnswer2);
             btn4.setText(wrongAnswer3);
 
         } else if (itnBtnForCorrectAnswer == 1) {
             btn1.setText(wrongAnswer1);
-            btn2.setText(correctAnswer);
+            btn2.setText(correctAnswer); btnIdRightAnsw = btn2.getId();
+
             btn3.setText(wrongAnswer2);
             btn4.setText(wrongAnswer3);
         } else if (itnBtnForCorrectAnswer == 2) {
             btn1.setText(wrongAnswer1);
             btn2.setText(wrongAnswer2);
-            btn3.setText(correctAnswer);
+            btn3.setText(correctAnswer); btnIdRightAnsw = btn3.getId();
             btn4.setText(wrongAnswer3);
         } else if (itnBtnForCorrectAnswer == 3) {
             btn1.setText(wrongAnswer1);
             btn2.setText(wrongAnswer2);
             btn3.setText(wrongAnswer3);
-            btn4.setText(correctAnswer);
+            btn4.setText(correctAnswer); btnIdRightAnsw = btn4.getId();
         }
 
+        //btn1.setText("22222");
+        ((Button)findViewById(R.id.btn1)).setText("3333");
 
     }
 
@@ -197,17 +189,34 @@ public class MainOperationActivity extends AppCompatActivity {
     //bitton answer click
 
     public void btnClick(View view) {
+
+        timer= (level>15) ?  5 :  20 - level;
+
+
         receivedAnswer = ((Button) view).getText().toString();
         if (correctAnswer.equals(receivedAnswer)) {
             score++;
-            Toast.makeText(this, "Right answer!!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "RIGHT ANSWER!!!", Toast.LENGTH_SHORT).show();
 
         } else {
+            Toast.makeText(this, "WRONG ANSWER!!!", Toast.LENGTH_SHORT).show();
+//           for(int i = 0 ; i < 300 ; i++){
+//                Random r = new Random();
+//                btnRightAnsw.setTextColor(Color.rgb(r.nextInt(255), r.nextInt(255), r.nextInt(255)));
+//           }
+            ((Button)findViewById(btnIdRightAnsw)).setText("OOOO");
+            Log.d("DEBUG : ", "ID BTN WITH RiGHT ANSWER "+btnIdRightAnsw);
+
+            try {
+                Thread.sleep(3000);
+            }catch (Exception e){}
+
+
             chances--;
         }
 
         if (chances == -1) {
-            Toast.makeText(this, "End here!!! Your level = " + level, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "GAME OVER! YOUR LEVEL = " + level, Toast.LENGTH_LONG).show();
             Intent mainActivity = new Intent(this, MainActivity.class);
             startActivity(mainActivity);
         }
@@ -226,73 +235,71 @@ public class MainOperationActivity extends AppCompatActivity {
         startActivity(back);
     }
 
-    // Count the time
-    private void doCount() {
-        final Calendar cal = Calendar.getInstance();
-        while (true) {
-            // Start to countdown
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    tvTime.setText(cal.getTime().toString());
+
+
+    // Class for counting the time
+    class CountDown extends Thread{
+
+        public void run(){
+
+            while(true){
+               // Log.d("Timer time : ", String.valueOf(timer));
+
+
+                try {
+                    Thread.sleep(1000);
+                }catch(Exception e){
+                    Toast.makeText(getApplicationContext(),"Error : "+e.getMessage(), Toast.LENGTH_LONG).show();
                 }
-            });
-
-        }
-    }
 
 
 
 
 
-    class MyThreadOdd extends Thread {
 
-        @Override
-        public void run() {
-            for(int i = 1; i < 1000; i+=2){
-                Log.d("Odd numbers", String.valueOf(i));
-                final int x = i;
-                try{
-                    handler.post(new Runnable() {
-                        @Override
-                        public void run() {
-                            tvEven.setText(String.valueOf(x));
+
+                timer--;
+
+                //final int sec = timer;
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+
+                        if(timer == 0 && chances == 0  ){
+                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            startActivity(intent);
                         }
-                    });
-                    Thread.sleep(500);
 
-                }catch (Exception e){
+                        tvTime.setText( String.valueOf(timer) );
 
+                        if( timer == 0 && chances >= 1){
+                            chances--;
+                            tvChances.setText( String.valueOf(chances) );
+                            timer = (level>15) ?  5 :  20 - level;
+
+                        }
+
+                    }
+                });
+
+                if( timer == 0 && chances == 0 ) {
+;
+                     Log.d("DEBUG : ","Exit from countdown");
+
+                    break;
                 }
+
+
+
+
+
 
             }
-        }
-    }
-    class MyThreadEven extends Thread {
 
-        @Override
-        public void run() {
-            for(int i = 0; i < 1000; i+=2){
-                Log.d("Even numbers", String.valueOf(i));
-                    final int x = i;
-                try{
-                    handler.post(new Runnable() {
-                        @Override
-                        public void run() {
-                            tvOdd.setText(String.valueOf(x));
-                        }
-                    });
-
-                    Thread.sleep(500);
-
-                }catch (Exception e){
-
-                }
-
-            }
         }
     }
 
 
 }
+
 

@@ -4,38 +4,30 @@
     api-level="19"
     density="560dpi"
     format="7"
-    timestamp="75812865638662"
-    token="8017437982112300917"
-    verifier="COMPATIBLE" >
+    timestamp="90367883783916"
+    token="8017437982112300917" >
 
     <task
         name="javac"
-        duration="222" />
+        duration="196" />
     <task
         name="instant-run-dex"
-        duration="678" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="16" />
+        duration="37" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
-        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="75776485605601" >
+    <build timestamp="90367883783916" >
         <artifact
             location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="75812865638662"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
