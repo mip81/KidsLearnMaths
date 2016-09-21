@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="22"
-    density="xxhdpi"
+    abi="x86"
+    api-level="19"
+    density="560dpi"
     format="7"
-    timestamp="66185756865590"
-    token="8017437982112300917" >
+    timestamp="75812865638662"
+    token="8017437982112300917"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="223" />
+        duration="222" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="678" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="16" />
     <task
         name="verifier"
-        duration="2" />
+        duration="1" />
 
     <artifact
-        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-        type="DEX" />
+        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="65892179640529" >
+    <build timestamp="75776485605601" >
         <artifact
             location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="66185756865590" >
+    <build
+        timestamp="75812865638662"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
+            location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

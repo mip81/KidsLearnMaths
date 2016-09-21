@@ -1,0 +1,1 @@
+CHANGED,/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/klm/mip/nz/klm/MainOperationActivity$MyThreadEven$1.class
