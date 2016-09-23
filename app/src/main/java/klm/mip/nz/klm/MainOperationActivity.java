@@ -2,14 +2,18 @@ package klm.mip.nz.klm;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.DrawableRes;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,6 +27,7 @@ public class MainOperationActivity extends AppCompatActivity {
 
     private Handler handler;
     private int timer = 20;
+    private int lastY = 0;
 
     private TextView tvScore, tvLevel, tvQuestion, tvChances;
     private TextView tvTime, tvName, tvAnswer, tvX, tvY, tvSign;
@@ -30,7 +35,7 @@ public class MainOperationActivity extends AppCompatActivity {
     private Button btn1, btn2, btn3, btn4, btnBack;
     private String receivedAnswer = "";
     private String correctAnswer = "";
-    private int btnIdRightAnsw;
+    private Button corrBtn;
 
 
     private String activityName = "";
@@ -40,6 +45,8 @@ public class MainOperationActivity extends AppCompatActivity {
     private int questionNo = 1;
     private String sign = "";
     private CountDown countThread = new CountDown();
+    private boolean isQuit = false;
+    private int max = 10; // Max for random
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +55,7 @@ public class MainOperationActivity extends AppCompatActivity {
 
         // get operation from the main activity
         sign = this.getIntent().getExtras().getString("sign");
+
         chrono = (Chronometer) findViewById(R.id.chronometer);
         tvScore = (TextView) findViewById(R.id.tvScore);
         tvLevel = (TextView) findViewById(R.id.tvNumLevel);
@@ -98,6 +106,7 @@ public class MainOperationActivity extends AppCompatActivity {
     // LOAD DATA FOR NEW GAME
     private void loadData() {
 
+
         tvScore.setText("" + score);
         tvChances.setText("" + chances);
         tvLevel.setText("" + level);
@@ -110,23 +119,53 @@ public class MainOperationActivity extends AppCompatActivity {
         int no1 = random.nextInt(10) + level;
         int no2 = random.nextInt(10) + level;
 
-
+        // Condition for DIVISION
         if (sign.equals("/")) {
-            while ( (no1 % no2) != 0 && (no1 > no2) ) {
+
+            while ( !(((no1 % no2) == 0 ) && (no1 > no2) && (no1 != no2) && (no2 != 1) && (no2 != lastY) )) {
+                max = 10 + level;
+
                 no1 = random.nextInt(10) + level;
-                no2 = random.nextInt(10) + level;
+                no2 = random.nextInt(10)+ level;
             }
+                lastY = no2;
+                   Log.d("DEBUG ","no1 : "+ String.valueOf(no1)+" no2 : "+String.valueOf(no2));
+                   Log.d("DEBUG no1 % no2 : ", String.valueOf(no1 % no2));
+        }
+
+        // CONDITION FOR MINUS
+        if (sign.equals("-")) {
+            while ( !(no1 > no2)  ) {
+                no1 = random.nextInt(10 + level);
+                no2 = random.nextInt(10 + level);
+            }
+
+            max = no1 + no2 +level;
+        }
+
+        // CONDITION FOR PLUS
+        if (sign.equals("+")) {
+            max = no1 + no1 + level;
+        }
+
+
+        // CONDITION FOR MULTIPLICATION
+        if (sign.equals("*")) {
+            max = (no1 * no1) + level;
         }
 
 
 
+
+        // AFTER 5 Questions lebel up
         if (questionNo % 5 == 0) level++;
 
+        // Set 
         tvX.setText("" + no1);
         tvY.setText("" + no2);
 
 
-        int itnBtnForCorrectAnswer = random.nextInt(4);
+        int itnBtnForCorrectAnswer = random.nextInt(3);
 
         String wrongAnswer1 = null;
         String wrongAnswer2 = null;
@@ -139,9 +178,7 @@ public class MainOperationActivity extends AppCompatActivity {
         if (sign.equals("-"))
             correctAnswer = String.valueOf(no1 - no2);
 
-        if (sign.equals("/") && no2 == 0) {
-            no2 = MyRandomNumbers.getWrongAnswer(0);
-        } else {
+        if (sign.equals("/")){
             correctAnswer = String.valueOf(no1 / no2);
         }
 
@@ -149,39 +186,36 @@ public class MainOperationActivity extends AppCompatActivity {
             correctAnswer = String.valueOf(no1 * no2);
 
 
-        wrongAnswer1 = String.valueOf(MyRandomNumbers.getWrongAnswer(Integer.parseInt(correctAnswer)));
-        wrongAnswer2 = String.valueOf(MyRandomNumbers.getWrongAnswer(Integer.parseInt(correctAnswer)
+        wrongAnswer1 = String.valueOf(MyRandomNumbers.getWrongAnswer(max, Integer.parseInt(correctAnswer)));
+        wrongAnswer2 = String.valueOf(MyRandomNumbers.getWrongAnswer(max, Integer.parseInt(correctAnswer)
                 , Integer.parseInt(wrongAnswer1)));
-        wrongAnswer3 = String.valueOf(MyRandomNumbers.getWrongAnswer(Integer.parseInt(correctAnswer)
+        wrongAnswer3 = String.valueOf(MyRandomNumbers.getWrongAnswer(max, Integer.parseInt(correctAnswer)
                 , Integer.parseInt(wrongAnswer1)
                 , Integer.parseInt(wrongAnswer2)));
 
         if (itnBtnForCorrectAnswer == 0) {
-            btn1.setText(correctAnswer); btnIdRightAnsw = btn1.getId();
+            btn1.setText(correctAnswer); corrBtn = btn1;
             btn2.setText(wrongAnswer1);
             btn3.setText(wrongAnswer2);
             btn4.setText(wrongAnswer3);
 
         } else if (itnBtnForCorrectAnswer == 1) {
             btn1.setText(wrongAnswer1);
-            btn2.setText(correctAnswer); btnIdRightAnsw = btn2.getId();
+            btn2.setText(correctAnswer); corrBtn = btn2;
 
             btn3.setText(wrongAnswer2);
             btn4.setText(wrongAnswer3);
         } else if (itnBtnForCorrectAnswer == 2) {
             btn1.setText(wrongAnswer1);
             btn2.setText(wrongAnswer2);
-            btn3.setText(correctAnswer); btnIdRightAnsw = btn3.getId();
+            btn3.setText(correctAnswer); corrBtn = btn3;
             btn4.setText(wrongAnswer3);
         } else if (itnBtnForCorrectAnswer == 3) {
             btn1.setText(wrongAnswer1);
             btn2.setText(wrongAnswer2);
             btn3.setText(wrongAnswer3);
-            btn4.setText(correctAnswer); btnIdRightAnsw = btn4.getId();
+            btn4.setText(correctAnswer); corrBtn = btn3;
         }
-
-        //btn1.setText("22222");
-        ((Button)findViewById(R.id.btn1)).setText("3333");
 
     }
 
@@ -190,47 +224,72 @@ public class MainOperationActivity extends AppCompatActivity {
 
     public void btnClick(View view) {
 
+
+
         timer= (level>15) ?  5 :  20 - level;
 
 
         receivedAnswer = ((Button) view).getText().toString();
+
+
         if (correctAnswer.equals(receivedAnswer)) {
             score++;
-            Toast.makeText(this, "RIGHT ANSWER!!!", Toast.LENGTH_SHORT).show();
+            Toast toast = Toast.makeText(this, "CORRECT!", Toast.LENGTH_SHORT);
+            ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
+                    .setGravity(Gravity.CENTER_HORIZONTAL);
+            toast.setGravity(Gravity.TOP, 0, 0);
+
+            toast.show();
+
 
         } else {
-            Toast.makeText(this, "WRONG ANSWER!!!", Toast.LENGTH_SHORT).show();
-//           for(int i = 0 ; i < 300 ; i++){
-//                Random r = new Random();
-//                btnRightAnsw.setTextColor(Color.rgb(r.nextInt(255), r.nextInt(255), r.nextInt(255)));
-//           }
-            ((Button)findViewById(btnIdRightAnsw)).setText("OOOO");
-            Log.d("DEBUG : ", "ID BTN WITH RiGHT ANSWER "+btnIdRightAnsw);
+
+            Toast toast = Toast.makeText(this, "\tWRONG ANSWER! \n\n CORRECT ANSWER IS "+correctAnswer, Toast.LENGTH_SHORT);
+            ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
+                    .setGravity(Gravity.CENTER_HORIZONTAL);
+            toast.setGravity(Gravity.TOP, -50, 0);
+
+            toast.show();
+
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    corrBtn.setBackgroundColor(Color.RED);
+
+                }
+            }, 3000);
+
 
             try {
-                Thread.sleep(3000);
-            }catch (Exception e){}
+                Thread.sleep(5000);
+            }catch (Exception e){
 
+
+            }
 
             chances--;
         }
 
-        if (chances == -1) {
-            Toast.makeText(this, "GAME OVER! YOUR LEVEL = " + level, Toast.LENGTH_LONG).show();
+        if (chances == -1) { // EXIT
+            Toast toast = Toast.makeText(getApplicationContext(), "GAME OVER! \n YOUR LEVEL IS " + level+" \n DON'T GIVE UP!", Toast.LENGTH_LONG);
+            ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
+                    .setGravity(Gravity.CENTER_HORIZONTAL);
+            toast.setGravity(Gravity.CENTER, 0, 0);
+
+            toast.show();
+
             Intent mainActivity = new Intent(this, MainActivity.class);
             startActivity(mainActivity);
         }
 
+
         questionNo++;
         loadData();
-
-
-
-
 
     }
 
     public void goBack(View view) {
+        isQuit = true;
         Intent back = new Intent(this, MainActivity.class);
         startActivity(back);
     }
@@ -242,7 +301,7 @@ public class MainOperationActivity extends AppCompatActivity {
 
         public void run(){
 
-            while(true){
+            while(!isQuit){
                // Log.d("Timer time : ", String.valueOf(timer));
 
 
@@ -252,12 +311,6 @@ public class MainOperationActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Error : "+e.getMessage(), Toast.LENGTH_LONG).show();
                 }
 
-
-
-
-
-
-
                 timer--;
 
                 //final int sec = timer;
@@ -266,6 +319,14 @@ public class MainOperationActivity extends AppCompatActivity {
                     public void run() {
 
                         if(timer == 0 && chances == 0  ){
+                            Toast toast = Toast.makeText(getApplicationContext(), "GAME OVER! \n YOUR LEVEL IS " + level+" \n DON'T GIVE UP!", Toast.LENGTH_LONG);
+                            ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
+                                    .setGravity(Gravity.CENTER_HORIZONTAL);
+                            toast.setGravity(Gravity.CENTER, -50, 0);
+
+                            toast.show();
+
+
                             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                             startActivity(intent);
                         }
@@ -276,7 +337,8 @@ public class MainOperationActivity extends AppCompatActivity {
                             chances--;
                             tvChances.setText( String.valueOf(chances) );
                             timer = (level>15) ?  5 :  20 - level;
-
+                            loadData();
+                            questionNo++;
                         }
 
                     }
@@ -284,20 +346,15 @@ public class MainOperationActivity extends AppCompatActivity {
 
                 if( timer == 0 && chances == 0 ) {
 ;
-                     Log.d("DEBUG : ","Exit from countdown");
+                    // Log.d("DEBUG : ","Exit from countdown");
 
                     break;
                 }
-
-
-
-
-
-
             }
 
         }
     }
+
 
 
 }

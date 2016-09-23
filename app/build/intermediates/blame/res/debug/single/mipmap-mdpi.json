@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/mipmap-mdpi/klm.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/mipmap-mdpi/klm.png"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

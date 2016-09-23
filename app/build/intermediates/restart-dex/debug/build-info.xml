@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
     api-level="19"
     density="560dpi"
-    format="7"
-    timestamp="90367883783916"
-    token="8017437982112300917" >
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="195097266465982"
+    token="8017437982112300917"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="196" />
+        duration="2433" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="37" />
+        duration="176" />
     <task
         name="verifier"
-        duration="2" />
+        duration="94" />
 
     <artifact
         location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="90367883783916" >
+    <build
+        timestamp="195097266465982"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

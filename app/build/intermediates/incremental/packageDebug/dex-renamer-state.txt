@@ -1,0 +1,4 @@
+#Fri Sep 23 12:16:45 NZST 2016
+base.0=/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

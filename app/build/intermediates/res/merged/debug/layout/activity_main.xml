@@ -28,47 +28,22 @@
             android:gravity="center">
 
             <Button
-                android:layout_width="110dp"
-                android:layout_height="110dp"
                 android:id="@+id/btnDiv"
                 android:background="@drawable/btn_div"
                 android:tag="/"
                 android:onClick="doPlay"
-                android:layout_marginRight="15dp" />
+                android:layout_marginRight="15dp"
+                android:layout_width="140dp"
+                android:layout_height="140dp" />
 
             <Button
-                android:layout_width="110dp"
-                android:layout_height="110dp"
                 android:id="@+id/btnM"
                 android:background="@drawable/btn_m"
                 android:tag="*"
                 android:onClick="doPlay"
-                android:layout_marginLeft="15dp" />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center">
-
-            <Button
-                android:layout_width="110dp"
-                android:layout_height="110dp"
-                android:id="@+id/btnPlus"
-                android:background="@drawable/btn_plus"
-                android:tag="+"
-                android:onClick="doPlay"
-                android:layout_marginRight="15dp" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnMinus"
-                android:background="@drawable/btn_minus"
-                android:tag="-"
-                android:onClick="doPlay"
-                android:layout_marginLeft="15dp" />
+                android:layout_marginLeft="15dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
 
         </TableRow>
 
@@ -86,14 +61,31 @@
                 android:onClick="doRandomPlay"
                 android:layout_marginRight="15dp" />
 
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnExit"
-                android:background="@drawable/btn_exit"
-                android:tag="exit"
-                android:onClick="doExit"
+                android:id="@+id/btnPlus"
+                android:background="@drawable/btn_plus"
+                android:tag="+"
+                android:onClick="doPlay"
+                android:layout_marginRight="15dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/btnMinus"
+                android:background="@drawable/btn_minus"
+                android:tag="-"
+                android:onClick="doPlay"
                 android:layout_marginLeft="15dp" />
+
         </TableRow>
     </TableLayout>
 </LinearLayout>

@@ -123,7 +123,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="10"
+                android:text="19"
                 android:id="@+id/tvTime"
                 android:textColor="#f3ec24"
                 android:textStyle="bold" />
