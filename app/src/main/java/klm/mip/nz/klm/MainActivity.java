@@ -2,6 +2,7 @@ package klm.mip.nz.klm;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,6 +19,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getSupportActionBar().hide();
+
+        // LOCK CURRENT ORIENTATION
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        //FOR UNLOCKING
+        //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+
 
     }
 

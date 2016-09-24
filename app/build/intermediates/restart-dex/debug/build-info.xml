@@ -1,43 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="22"
-    density="xxhdpi"
+    api-level="19"
+    density="560dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="286777288905503"
+    timestamp="346708456246709"
     token="8017437982112300917"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="135" />
+        duration="305" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="21" />
+        duration="23" />
     <task
         name="verifier"
-        duration="2" />
+        duration="3" />
 
     <artifact
-        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-        type="DEX" />
+        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="284794191966622"
+        timestamp="346708456246709"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="286777288905503"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

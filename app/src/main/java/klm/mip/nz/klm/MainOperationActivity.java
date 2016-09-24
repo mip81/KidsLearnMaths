@@ -1,6 +1,7 @@
 package klm.mip.nz.klm;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
@@ -29,24 +30,10 @@ import java.util.Random;
  * Created by mikhailpastushkov on 9/20/16.
  */
 public class MainOperationActivity extends AppCompatActivity {
-    private String[] colors = {"#ff99cc",
-    "#ffcc99",
-    "#ffff66",
-    "#ccff66",
-    "#99ff66",
-    "#99ff66",
-    "#00ff99",
-    "#3399ff",
-    "#9999ff",
-    "#00cc99",
-    "#ff00ff",
-    "#ff9933",
-    "#ccffcc",
-    "#66ffff",
-    "#9999ff",
-    "#ffffcc",
-    "#ccffcc",
-    "#66ccff"};
+    final boolean DEBUG = false;
+    private String[] colors = {"#ff99cc",  "#ffcc99", "#ffff66", "#ccff66", "#99ff66", "#99ff66",
+                               "#00ff99", "#3399ff", "#9999ff", "#00cc99",  "#ff00ff", "#ff9933",
+                               "#ccffcc", "#66ffff", "#9999ff", "#ffffcc", "#ccffcc", "#66ccff"};
     private DecimalFormat df = new DecimalFormat("0.#");
     private Handler handler;
     private int timer = 22;
@@ -54,6 +41,7 @@ public class MainOperationActivity extends AppCompatActivity {
 
     private TextView tvScore, tvLevel, tvQuestion, tvChances;
     private TextView tvTime, tvName, tvAnswer, tvX, tvY, tvEq, tvSign, tvAccuracy;
+    private TextView tvScoreLbl, tvLevelLbl, tvTimeLbl, tvAccuracyLbl, tvAnswerLbl;
     private Button btn1, btn2, btn3, btn4, btnBack;
     private String receivedAnswer = "";
     private String correctAnswer = "";
@@ -78,20 +66,32 @@ public class MainOperationActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main_operation);
 
+        // LOCK CURRENT ORIENTATION
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            //FOR UNLOCKING
+         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+
         //define custom font
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Rabbit On The Moon.ttf");
 
         // get operation from the main activity
         sign = this.getIntent().getExtras().getString("sign");
 
+        if(DEBUG) Log.d("CHOOSEN SIGN ",sign);
 
         // DEFINE VARS OF VIEWS
         tvScore = (TextView) findViewById(R.id.tvScore);
+            tvScore.setTypeface(tf);
         tvLevel = (TextView) findViewById(R.id.tvNumLevel);
+            tvLevel.setTypeface(tf);
         tvQuestion = (TextView) findViewById(R.id.tvNumQuestion);
+            tvQuestion.setTypeface(tf);
         tvChances = (TextView) findViewById(R.id.tvChances);
+            tvChances.setTypeface(tf);
         tvTime = (TextView) findViewById(R.id.tvTime);
+            tvTime.setTypeface(tf);
         tvAccuracy = (TextView) findViewById(R.id.tvAccuracy);
+            tvAccuracy.setTypeface(tf);
         ((TextView)findViewById(R.id.tvChancesLbl)).setTypeface(tf);
         tvChances.setTypeface(tf);
 
@@ -120,6 +120,12 @@ public class MainOperationActivity extends AppCompatActivity {
             btn4.setTypeface(tf);
         btnBack = (Button) findViewById(R.id.btnBack);
             btnBack.setTypeface(tf);
+
+
+        ((TextView)findViewById(R.id.tvAccuracyLbl)).setTypeface(tf);
+        ((TextView)findViewById(R.id.tvLblScore)).setTypeface(tf);
+        ((TextView)findViewById(R.id.tvLevelLbl)).setTypeface(tf);
+        ((TextView)findViewById(R.id.tvQestionLbl)).setTypeface(tf);
         // END DEFINING VARS
 
 
@@ -160,8 +166,6 @@ public class MainOperationActivity extends AppCompatActivity {
     // LOAD DATA FOR NEW GAME
     private void loadData() {
 
-
-
         tvScore.setText("" + score);
         tvChances.setText("" + chances);
         tvLevel.setText("" + level);
@@ -176,6 +180,8 @@ public class MainOperationActivity extends AppCompatActivity {
 
         int no1 = random.nextInt(10) + level;
         int no2 = random.nextInt(10) + level;
+            if(DEBUG) Log.d("USE DFLT RND : ", "no1: "+no1+" no2: "+no2);
+
 
         // Condition for DIVISION
         if (sign.equals("/")) {
@@ -184,11 +190,10 @@ public class MainOperationActivity extends AppCompatActivity {
                 max = 10 + level;
                 no1 = random.nextInt( (10 + level) );
                 no2 = random.nextInt( (10 + level) );
-             //       Log.d("DEBUG ", " FINDING x and y for division ");
+
             }
                 lastY = no2;
-                   Log.d("DEBUG ","no1 : "+ String.valueOf(no1)+" no2 : "+String.valueOf(no2));
-                 //  Log.d("DEBUG no1 % no2 : ", String.valueOf(no1 % no2));
+            if(DEBUG) Log.d("USE RND FOR / : ", "no1: "+no1+" no2: "+no2+" max: "+max);
         }
 
 
@@ -200,22 +205,26 @@ public class MainOperationActivity extends AppCompatActivity {
             }
 
             max = no1 + no2 +level;
+            if(DEBUG) Log.d("USE RND FOR - : ", "no1: "+no1+" no2: "+no2+" max: "+max);
         }
 
         // CONDITION FOR PLUS
         if (sign.equals("+")) {
             max = no1 + no1 + level;
+            if(DEBUG) Log.d("USE RND FOR + : ", "no1: "+no1+" no2: "+no2+" max: "+max);
         }
 
         // CONDITION FOR MULTIPLICATION
         if (sign.equals("*")) {
             max = (no1 * no1) + level;
+            if(DEBUG) Log.d("USE RND FOR + : ", "no1: "+no1+" no2: "+no2+" max: "+max);
         }
 
         // AFTER 5 Questions lebel up
         if (questionNo % 5 == 0){
             level++;
             //distraction +=level*10;
+            if(DEBUG) Log.d("CHK Q LVL : ", "LVL : "+level);
         }
 
         // Set
@@ -241,13 +250,14 @@ public class MainOperationActivity extends AppCompatActivity {
                 correctAnswer = String.valueOf(no1 / no2);
 
             }catch (ArithmeticException e){
-                Log.d("DEBUG : ",  "Division by 0 n1="+no1+" n2="+no2);
+                Log.e("EXCEPTION : ",  "Division by 0 n1="+no1+" n2="+no2);
             }
         }
 
         if (sign.equals("*"))
             correctAnswer = String.valueOf(no1 * no2);
 
+        if(DEBUG) Log.d("CALC CORRECT ANSW : ", "correctAnswer : "+correctAnswer);
 
         wrongAnswer1 = String.valueOf(MyRandomNumbers.getWrongAnswer(max, Integer.parseInt(correctAnswer)));
         wrongAnswer2 = String.valueOf(MyRandomNumbers.getWrongAnswer(max, Integer.parseInt(correctAnswer)
@@ -284,15 +294,18 @@ public class MainOperationActivity extends AppCompatActivity {
         // Wait until Thread die
         try {
             countThread.join();
+            if(DEBUG) Log.d("WAIT ENDS OF THREAD: ", "loadData() NAME THREAD : "+countThread.getName());
         }catch (Exception e){}
 
-        // Start distraction
-        new SetColors().execute();
 
 
         // Start counting
             countThread =  new CountDown();
             countThread.start();
+
+        // Start distraction
+        new SetColors().execute();
+
     }
 
 
@@ -306,10 +319,10 @@ public class MainOperationActivity extends AppCompatActivity {
      */
     public void btnClick(View view) {
             // make btns onclickable
+        if(DEBUG) Log.d("BTN CLICKED : ", "BTN : "+((Button) view).getText().toString());
         disableBtn();
             stopCount();
 
-        Log.d("DEBUG CLICK BTN isQuit ", isQuit+"");
             //SystemClock.sleep(100);
         int delay = 0;
         final Drawable SAVEDBG = corrBtn.getBackground(); //save the BG of correct button
@@ -336,15 +349,14 @@ public class MainOperationActivity extends AppCompatActivity {
 
 
             // SHOW MSG AND CORRECT ANSWER
-            Toast toast = Toast.makeText(this, "\tWRONG ANSWER! \n\n CORRECT ANSWER IS "+correctAnswer, Toast.LENGTH_SHORT);
-            LinearLayout ll = (LinearLayout) toast.getView();
-            //ll.setLayoutParams(new Toolbar.LayoutParams(this));
-            TextView tvToast = ((TextView)((LinearLayout)toast.getView()).getChildAt(0));
-
-                tvToast.setGravity(Gravity.CENTER_HORIZONTAL);
-
-            toast.setGravity(Gravity.TOP, 0, 0);
-            toast.show();
+//            Toast toast = Toast.makeText(this, "\tWRONG ANSWER! \n\n CORRECT ANSWER IS "+correctAnswer, Toast.LENGTH_SHORT);
+//            TextView tvToast = ((TextView)((LinearLayout)toast.getView()).getChildAt(0));
+//
+//                tvToast.setGravity(Gravity.CENTER_HORIZONTAL);
+//
+//            toast.setGravity(Gravity.TOP, 0, 0);
+//            toast.show();
+//
 
             // DISPLAY CORRECT ANSWER BY CHANGING BG
             savedCorrBtn.setBackgroundResource(R.drawable.btn_corr_answer);
@@ -355,31 +367,34 @@ public class MainOperationActivity extends AppCompatActivity {
 
         if (chances == -1) { // EXIT
 
-            Toast toast = Toast.makeText(getApplicationContext(), "GAME OVER! \n YOUR LEVEL IS " + level+" \n DON'T GIVE UP!", Toast.LENGTH_LONG);
-            ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
-                    .setGravity(Gravity.CENTER_HORIZONTAL);
-            toast.setGravity(Gravity.CENTER, 0, 0);
+                stopCount();
+                    if(DEBUG) Log.d("EXIT: ", "STOPCOUNT WAIT JOIN THRD NAME : "+countThread.getName());
+                try {
+                    countThread.join();
+                    if(DEBUG) Log.d("WAIT ENDS OF THREAD: ", countThread.getName());
+                }catch (Exception e){}
 
-            toast.show();
+                showDialog("GAME OVER!", new StringBuilder("Your level is " +level+" \nDon't give up!").toString());
 
-            Intent mainActivity = new Intent(this, MainActivity.class);
-            startActivity(mainActivity);
         }
 
-        // delay changing question
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                isQuit = true;
-                questionNo++;
-                enableBtn();
-                savedCorrBtn.setBackground(SAVEDBG);
-                savedCorrBtn.setTextColor(Color.BLACK);
+       if(chances > -1){
 
-                loadData();
+            // delay changing question
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    isQuit = true;
+                    questionNo++;
+                    enableBtn();
+                    savedCorrBtn.setBackground(SAVEDBG);
+                    savedCorrBtn.setTextColor(Color.BLACK);
 
-            }
-        }, delay);
+                    loadData();
+
+                }
+            }, delay);
+       }  // END IF
 
 
     }
@@ -431,6 +446,15 @@ public class MainOperationActivity extends AppCompatActivity {
     private void stopCount(){
         isQuit = true;
     }
+
+    // SHOW END DIALOG
+    private void showDialog(String title, String msg ){
+        new DialogHelper()
+                .setTitle(title)
+                .setMainActivity(new Intent(getApplicationContext(), MainActivity.class))
+                .setMessage(msg).show(getFragmentManager(),"");;
+    }
+
     // Class for counting the time
     class CountDown extends Thread{
 
@@ -442,7 +466,7 @@ public class MainOperationActivity extends AppCompatActivity {
 
             while(!isQuit){
 
-                Log.d("isQuit : ", this.getName() +" "+String.valueOf(isQuit));
+                if(DEBUG) Log.d("THRD isQuit: ", this.getName() +" "+String.valueOf(isQuit));
 
 
                 timer--;
@@ -453,16 +477,9 @@ public class MainOperationActivity extends AppCompatActivity {
                     public void run() {
 
                         if(timer == 0 && chances == 0  ){
-                            Toast toast = Toast.makeText(getApplicationContext(), "GAME OVER! \n YOUR LEVEL IS " + level+" \n DON'T GIVE UP!", Toast.LENGTH_LONG);
-                            ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
-                                    .setGravity(Gravity.CENTER_HORIZONTAL);
-                            toast.setGravity(Gravity.CENTER, -50, 0);
 
-                            toast.show();
+                                showDialog("GAME OVER!", "Sorry! Time is over!");
 
-
-                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                            startActivity(intent);
                         }
 
                         tvTime.setText( String.valueOf(timer) );
@@ -491,6 +508,7 @@ public class MainOperationActivity extends AppCompatActivity {
 
         @Override
         protected Integer doInBackground(Void... params) {
+
 
             int x = 0;
             Integer[] arrNum = new Integer[5];

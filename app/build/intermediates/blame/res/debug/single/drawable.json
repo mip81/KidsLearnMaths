@@ -4,6 +4,10 @@
         "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/minus.png"
     },
     {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/alert_style.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/alert_style.xml"
+    },
+    {
         "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/qm.png",
         "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/qm.png"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
         "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/klm.png",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/klm.png"
     },
     {
         "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_minus.xml",

@@ -4035,8 +4035,46 @@
                     "startLine": 244,
                     "startColumn": 4,
                     "startOffset": 32515,
+                    "endColumn": 41,
+                    "endOffset": 32552
+                },
+                "from": {
+                    "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 91,
+                        "endColumn": 41,
+                        "endOffset": 128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 32557,
+                    "endColumn": 33,
+                    "endOffset": 32586
+                },
+                "from": {
+                    "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 33,
+                        "endOffset": 86
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 32591,
                     "endColumn": 70,
-                    "endOffset": 32581
+                    "endOffset": 32657
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4051,11 +4089,11 @@
             },
             {
                 "to": {
-                    "startLine": 245,
+                    "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 32586,
+                    "startOffset": 32662,
                     "endColumn": 77,
-                    "endOffset": 32659
+                    "endOffset": 32735
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4070,11 +4108,11 @@
             },
             {
                 "to": {
-                    "startLine": 246,
+                    "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 32664,
+                    "startOffset": 32740,
                     "endColumn": 89,
-                    "endOffset": 32749
+                    "endOffset": 32825
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4089,11 +4127,11 @@
             },
             {
                 "to": {
-                    "startLine": 247,
+                    "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 32754,
+                    "startOffset": 32830,
                     "endColumn": 87,
-                    "endOffset": 32837
+                    "endOffset": 32913
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4108,11 +4146,11 @@
             },
             {
                 "to": {
-                    "startLine": 248,
+                    "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 32842,
+                    "startOffset": 32918,
                     "endColumn": 95,
-                    "endOffset": 32933
+                    "endOffset": 33009
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4127,12 +4165,12 @@
             },
             {
                 "to": {
-                    "startLine": 249,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 32938,
-                    "endLine": 254,
+                    "startOffset": 33014,
+                    "endLine": 256,
                     "endColumn": 12,
-                    "endOffset": 33252
+                    "endOffset": 33328
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/values/styles.xml",
@@ -4148,12 +4186,12 @@
             },
             {
                 "to": {
-                    "startLine": 255,
+                    "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 33257,
-                    "endLine": 261,
+                    "startOffset": 33333,
+                    "endLine": 263,
                     "endColumn": 12,
-                    "endOffset": 33753
+                    "endOffset": 33829
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4169,11 +4207,11 @@
             },
             {
                 "to": {
-                    "startLine": 262,
+                    "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 33758,
+                    "startOffset": 33834,
                     "endColumn": 88,
-                    "endOffset": 33842
+                    "endOffset": 33918
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4188,12 +4226,12 @@
             },
             {
                 "to": {
-                    "startLine": 263,
+                    "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 33847,
-                    "endLine": 266,
+                    "startOffset": 33923,
+                    "endLine": 268,
                     "endColumn": 12,
-                    "endOffset": 34089
+                    "endOffset": 34165
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4209,12 +4247,12 @@
             },
             {
                 "to": {
-                    "startLine": 267,
+                    "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 34094,
-                    "endLine": 270,
+                    "startOffset": 34170,
+                    "endLine": 272,
                     "endColumn": 12,
-                    "endOffset": 34370
+                    "endOffset": 34446
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4230,12 +4268,12 @@
             },
             {
                 "to": {
-                    "startLine": 271,
+                    "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 34375,
-                    "endLine": 275,
+                    "startOffset": 34451,
+                    "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 34655
+                    "endOffset": 34731
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4251,12 +4289,12 @@
             },
             {
                 "to": {
-                    "startLine": 276,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 34660,
-                    "endLine": 281,
+                    "startOffset": 34736,
+                    "endLine": 283,
                     "endColumn": 12,
-                    "endOffset": 35048
+                    "endOffset": 35124
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4272,12 +4310,12 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 35053,
-                    "endLine": 288,
+                    "startOffset": 35129,
+                    "endLine": 290,
                     "endColumn": 12,
-                    "endOffset": 35525
+                    "endOffset": 35601
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4293,12 +4331,12 @@
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 35530,
-                    "endLine": 292,
+                    "startOffset": 35606,
+                    "endLine": 294,
                     "endColumn": 12,
-                    "endOffset": 35747
+                    "endOffset": 35823
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4314,12 +4352,12 @@
             },
             {
                 "to": {
-                    "startLine": 293,
+                    "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 35752,
-                    "endLine": 296,
+                    "startOffset": 35828,
+                    "endLine": 298,
                     "endColumn": 12,
-                    "endOffset": 35969
+                    "endOffset": 36045
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4335,12 +4373,12 @@
             },
             {
                 "to": {
-                    "startLine": 297,
+                    "startLine": 299,
                     "startColumn": 4,
-                    "startOffset": 35974,
-                    "endLine": 301,
+                    "startOffset": 36050,
+                    "endLine": 303,
                     "endColumn": 12,
-                    "endOffset": 36237
+                    "endOffset": 36313
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4356,12 +4394,12 @@
             },
             {
                 "to": {
-                    "startLine": 302,
+                    "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 36242,
-                    "endLine": 305,
+                    "startOffset": 36318,
+                    "endLine": 307,
                     "endColumn": 12,
-                    "endOffset": 36464
+                    "endOffset": 36540
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4377,12 +4415,12 @@
             },
             {
                 "to": {
-                    "startLine": 306,
+                    "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 36469,
-                    "endLine": 309,
+                    "startOffset": 36545,
+                    "endLine": 311,
                     "endColumn": 12,
-                    "endOffset": 36694
+                    "endOffset": 36770
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4398,12 +4436,12 @@
             },
             {
                 "to": {
-                    "startLine": 310,
+                    "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 36699,
-                    "endLine": 313,
+                    "startOffset": 36775,
+                    "endLine": 315,
                     "endColumn": 12,
-                    "endOffset": 36924
+                    "endOffset": 37000
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4419,12 +4457,12 @@
             },
             {
                 "to": {
-                    "startLine": 314,
+                    "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 36929,
-                    "endLine": 317,
+                    "startOffset": 37005,
+                    "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 37154
+                    "endOffset": 37230
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4440,12 +4478,12 @@
             },
             {
                 "to": {
-                    "startLine": 318,
+                    "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 37159,
-                    "endLine": 321,
+                    "startOffset": 37235,
+                    "endLine": 323,
                     "endColumn": 12,
-                    "endOffset": 37384
+                    "endOffset": 37460
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4461,12 +4499,12 @@
             },
             {
                 "to": {
-                    "startLine": 322,
+                    "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 37389,
-                    "endLine": 325,
+                    "startOffset": 37465,
+                    "endLine": 327,
                     "endColumn": 12,
-                    "endOffset": 37611
+                    "endOffset": 37687
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4482,12 +4520,12 @@
             },
             {
                 "to": {
-                    "startLine": 326,
+                    "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 37616,
-                    "endLine": 329,
+                    "startOffset": 37692,
+                    "endLine": 331,
                     "endColumn": 12,
-                    "endOffset": 37850
+                    "endOffset": 37926
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4503,12 +4541,12 @@
             },
             {
                 "to": {
-                    "startLine": 330,
+                    "startLine": 332,
                     "startColumn": 4,
-                    "startOffset": 37855,
-                    "endLine": 333,
+                    "startOffset": 37931,
+                    "endLine": 335,
                     "endColumn": 12,
-                    "endOffset": 38076
+                    "endOffset": 38152
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4524,12 +4562,12 @@
             },
             {
                 "to": {
-                    "startLine": 334,
+                    "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 38081,
-                    "endLine": 337,
+                    "startOffset": 38157,
+                    "endLine": 339,
                     "endColumn": 12,
-                    "endOffset": 38321
+                    "endOffset": 38397
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4545,12 +4583,12 @@
             },
             {
                 "to": {
-                    "startLine": 338,
+                    "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 38326,
-                    "endLine": 339,
+                    "startOffset": 38402,
+                    "endLine": 341,
                     "endColumn": 12,
-                    "endOffset": 38451
+                    "endOffset": 38527
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4566,12 +4604,12 @@
             },
             {
                 "to": {
-                    "startLine": 340,
+                    "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 38456,
-                    "endLine": 341,
+                    "startOffset": 38532,
+                    "endLine": 343,
                     "endColumn": 12,
-                    "endOffset": 38581
+                    "endOffset": 38657
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4587,12 +4625,12 @@
             },
             {
                 "to": {
-                    "startLine": 342,
+                    "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 38586,
-                    "endLine": 345,
+                    "startOffset": 38662,
+                    "endLine": 347,
                     "endColumn": 12,
-                    "endOffset": 38811
+                    "endOffset": 38887
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4608,12 +4646,12 @@
             },
             {
                 "to": {
-                    "startLine": 346,
+                    "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 38816,
-                    "endLine": 349,
+                    "startOffset": 38892,
+                    "endLine": 351,
                     "endColumn": 12,
-                    "endOffset": 39059
+                    "endOffset": 39135
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4629,12 +4667,12 @@
             },
             {
                 "to": {
-                    "startLine": 350,
+                    "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 39064,
-                    "endLine": 353,
+                    "startOffset": 39140,
+                    "endLine": 355,
                     "endColumn": 12,
-                    "endOffset": 39278
+                    "endOffset": 39354
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4650,12 +4688,12 @@
             },
             {
                 "to": {
-                    "startLine": 354,
+                    "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 39283,
-                    "endLine": 358,
+                    "startOffset": 39359,
+                    "endLine": 360,
                     "endColumn": 12,
-                    "endOffset": 39561
+                    "endOffset": 39637
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4671,12 +4709,12 @@
             },
             {
                 "to": {
-                    "startLine": 359,
+                    "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 39566,
-                    "endLine": 362,
+                    "startOffset": 39642,
+                    "endLine": 364,
                     "endColumn": 12,
-                    "endOffset": 39769
+                    "endOffset": 39845
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4692,12 +4730,12 @@
             },
             {
                 "to": {
-                    "startLine": 363,
+                    "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 39774,
-                    "endLine": 365,
+                    "startOffset": 39850,
+                    "endLine": 367,
                     "endColumn": 12,
-                    "endOffset": 39900
+                    "endOffset": 39976
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4713,12 +4751,12 @@
             },
             {
                 "to": {
-                    "startLine": 366,
+                    "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 39905,
-                    "endLine": 369,
+                    "startOffset": 39981,
+                    "endLine": 371,
                     "endColumn": 12,
-                    "endOffset": 40127
+                    "endOffset": 40203
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4734,12 +4772,12 @@
             },
             {
                 "to": {
-                    "startLine": 370,
+                    "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 40132,
-                    "endLine": 373,
+                    "startOffset": 40208,
+                    "endLine": 375,
                     "endColumn": 12,
-                    "endOffset": 40373
+                    "endOffset": 40449
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4755,12 +4793,12 @@
             },
             {
                 "to": {
-                    "startLine": 374,
+                    "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 40378,
-                    "endLine": 377,
+                    "startOffset": 40454,
+                    "endLine": 379,
                     "endColumn": 12,
-                    "endOffset": 40598
+                    "endOffset": 40674
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4776,12 +4814,12 @@
             },
             {
                 "to": {
-                    "startLine": 378,
+                    "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 40603,
-                    "endLine": 381,
+                    "startOffset": 40679,
+                    "endLine": 383,
                     "endColumn": 12,
-                    "endOffset": 40847
+                    "endOffset": 40923
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4797,12 +4835,12 @@
             },
             {
                 "to": {
-                    "startLine": 382,
+                    "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 40852,
-                    "endLine": 385,
+                    "startOffset": 40928,
+                    "endLine": 387,
                     "endColumn": 12,
-                    "endOffset": 41068
+                    "endOffset": 41144
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4818,12 +4856,12 @@
             },
             {
                 "to": {
-                    "startLine": 386,
+                    "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 41073,
-                    "endLine": 389,
+                    "startOffset": 41149,
+                    "endLine": 391,
                     "endColumn": 12,
-                    "endOffset": 41313
+                    "endOffset": 41389
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4839,12 +4877,12 @@
             },
             {
                 "to": {
-                    "startLine": 390,
+                    "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 41318,
-                    "endLine": 394,
+                    "startOffset": 41394,
+                    "endLine": 396,
                     "endColumn": 12,
-                    "endOffset": 41608
+                    "endOffset": 41684
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4860,12 +4898,12 @@
             },
             {
                 "to": {
-                    "startLine": 395,
+                    "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 41613,
-                    "endLine": 397,
+                    "startOffset": 41689,
+                    "endLine": 399,
                     "endColumn": 12,
-                    "endOffset": 41830
+                    "endOffset": 41906
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4881,12 +4919,12 @@
             },
             {
                 "to": {
-                    "startLine": 398,
+                    "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 41835,
-                    "endLine": 400,
+                    "startOffset": 41911,
+                    "endLine": 402,
                     "endColumn": 12,
-                    "endOffset": 42068
+                    "endOffset": 42144
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4902,12 +4940,12 @@
             },
             {
                 "to": {
-                    "startLine": 401,
+                    "startLine": 403,
                     "startColumn": 4,
-                    "startOffset": 42073,
-                    "endLine": 403,
+                    "startOffset": 42149,
+                    "endLine": 405,
                     "endColumn": 12,
-                    "endOffset": 42282
+                    "endOffset": 42358
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4923,12 +4961,12 @@
             },
             {
                 "to": {
-                    "startLine": 404,
+                    "startLine": 406,
                     "startColumn": 4,
-                    "startOffset": 42287,
-                    "endLine": 406,
+                    "startOffset": 42363,
+                    "endLine": 408,
                     "endColumn": 12,
-                    "endOffset": 42512
+                    "endOffset": 42588
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4944,12 +4982,12 @@
             },
             {
                 "to": {
-                    "startLine": 407,
+                    "startLine": 409,
                     "startColumn": 4,
-                    "startOffset": 42517,
-                    "endLine": 409,
+                    "startOffset": 42593,
+                    "endLine": 411,
                     "endColumn": 12,
-                    "endOffset": 42735
+                    "endOffset": 42811
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4965,12 +5003,12 @@
             },
             {
                 "to": {
-                    "startLine": 410,
+                    "startLine": 412,
                     "startColumn": 4,
-                    "startOffset": 42740,
-                    "endLine": 412,
+                    "startOffset": 42816,
+                    "endLine": 414,
                     "endColumn": 12,
-                    "endOffset": 42950
+                    "endOffset": 43026
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -4986,12 +5024,12 @@
             },
             {
                 "to": {
-                    "startLine": 413,
+                    "startLine": 415,
                     "startColumn": 4,
-                    "startOffset": 42955,
-                    "endLine": 415,
+                    "startOffset": 43031,
+                    "endLine": 417,
                     "endColumn": 12,
-                    "endOffset": 43158
+                    "endOffset": 43234
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5007,12 +5045,12 @@
             },
             {
                 "to": {
-                    "startLine": 416,
+                    "startLine": 418,
                     "startColumn": 4,
-                    "startOffset": 43163,
-                    "endLine": 417,
+                    "startOffset": 43239,
+                    "endLine": 419,
                     "endColumn": 12,
-                    "endOffset": 43282
+                    "endOffset": 43358
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5028,12 +5066,12 @@
             },
             {
                 "to": {
-                    "startLine": 418,
+                    "startLine": 420,
                     "startColumn": 4,
-                    "startOffset": 43287,
-                    "endLine": 419,
+                    "startOffset": 43363,
+                    "endLine": 421,
                     "endColumn": 12,
-                    "endOffset": 43406
+                    "endOffset": 43482
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5049,11 +5087,11 @@
             },
             {
                 "to": {
-                    "startLine": 420,
+                    "startLine": 422,
                     "startColumn": 4,
-                    "startOffset": 43411,
+                    "startOffset": 43487,
                     "endColumn": 104,
-                    "endOffset": 43511
+                    "endOffset": 43587
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5068,11 +5106,11 @@
             },
             {
                 "to": {
-                    "startLine": 421,
+                    "startLine": 423,
                     "startColumn": 4,
-                    "startOffset": 43516,
+                    "startOffset": 43592,
                     "endColumn": 116,
-                    "endOffset": 43628
+                    "endOffset": 43704
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5087,12 +5125,12 @@
             },
             {
                 "to": {
-                    "startLine": 422,
+                    "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 43633,
-                    "endLine": 424,
+                    "startOffset": 43709,
+                    "endLine": 426,
                     "endColumn": 12,
-                    "endOffset": 43842
+                    "endOffset": 43918
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5108,12 +5146,12 @@
             },
             {
                 "to": {
-                    "startLine": 425,
+                    "startLine": 427,
                     "startColumn": 4,
-                    "startOffset": 43847,
-                    "endLine": 426,
+                    "startOffset": 43923,
+                    "endLine": 428,
                     "endColumn": 12,
-                    "endOffset": 43988
+                    "endOffset": 44064
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5129,12 +5167,12 @@
             },
             {
                 "to": {
-                    "startLine": 427,
+                    "startLine": 429,
                     "startColumn": 4,
-                    "startOffset": 43993,
-                    "endLine": 428,
+                    "startOffset": 44069,
+                    "endLine": 430,
                     "endColumn": 12,
-                    "endOffset": 44128
+                    "endOffset": 44204
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5150,12 +5188,12 @@
             },
             {
                 "to": {
-                    "startLine": 429,
+                    "startLine": 431,
                     "startColumn": 4,
-                    "startOffset": 44133,
-                    "endLine": 430,
+                    "startOffset": 44209,
+                    "endLine": 432,
                     "endColumn": 12,
-                    "endOffset": 44214
+                    "endOffset": 44290
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5171,12 +5209,12 @@
             },
             {
                 "to": {
-                    "startLine": 431,
+                    "startLine": 433,
                     "startColumn": 4,
-                    "startOffset": 44219,
-                    "endLine": 435,
+                    "startOffset": 44295,
+                    "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 44562
+                    "endOffset": 44638
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5192,11 +5230,11 @@
             },
             {
                 "to": {
-                    "startLine": 436,
+                    "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 44567,
+                    "startOffset": 44643,
                     "endColumn": 87,
-                    "endOffset": 44650
+                    "endOffset": 44726
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5211,12 +5249,12 @@
             },
             {
                 "to": {
-                    "startLine": 437,
+                    "startLine": 439,
                     "startColumn": 4,
-                    "startOffset": 44655,
-                    "endLine": 440,
+                    "startOffset": 44731,
+                    "endLine": 442,
                     "endColumn": 12,
-                    "endOffset": 44880
+                    "endOffset": 44956
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5232,12 +5270,12 @@
             },
             {
                 "to": {
-                    "startLine": 441,
+                    "startLine": 443,
                     "startColumn": 4,
-                    "startOffset": 44885,
-                    "endLine": 446,
+                    "startOffset": 44961,
+                    "endLine": 448,
                     "endColumn": 12,
-                    "endOffset": 45282
+                    "endOffset": 45358
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5253,12 +5291,12 @@
             },
             {
                 "to": {
-                    "startLine": 447,
+                    "startLine": 449,
                     "startColumn": 4,
-                    "startOffset": 45287,
-                    "endLine": 450,
+                    "startOffset": 45363,
+                    "endLine": 452,
                     "endColumn": 12,
-                    "endOffset": 45515
+                    "endOffset": 45591
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5274,11 +5312,11 @@
             },
             {
                 "to": {
-                    "startLine": 451,
+                    "startLine": 453,
                     "startColumn": 4,
-                    "startOffset": 45520,
+                    "startOffset": 45596,
                     "endColumn": 81,
-                    "endOffset": 45597
+                    "endOffset": 45673
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5293,12 +5331,12 @@
             },
             {
                 "to": {
-                    "startLine": 452,
+                    "startLine": 454,
                     "startColumn": 4,
-                    "startOffset": 45602,
-                    "endLine": 453,
+                    "startOffset": 45678,
+                    "endLine": 455,
                     "endColumn": 12,
-                    "endOffset": 45695
+                    "endOffset": 45771
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5314,12 +5352,12 @@
             },
             {
                 "to": {
-                    "startLine": 454,
+                    "startLine": 456,
                     "startColumn": 4,
-                    "startOffset": 45700,
-                    "endLine": 464,
+                    "startOffset": 45776,
+                    "endLine": 466,
                     "endColumn": 12,
-                    "endOffset": 46312
+                    "endOffset": 46388
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5335,11 +5373,11 @@
             },
             {
                 "to": {
-                    "startLine": 465,
+                    "startLine": 467,
                     "startColumn": 4,
-                    "startOffset": 46317,
+                    "startOffset": 46393,
                     "endColumn": 99,
-                    "endOffset": 46412
+                    "endOffset": 46488
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5354,12 +5392,12 @@
             },
             {
                 "to": {
-                    "startLine": 466,
+                    "startLine": 468,
                     "startColumn": 4,
-                    "startOffset": 46417,
-                    "endLine": 469,
+                    "startOffset": 46493,
+                    "endLine": 471,
                     "endColumn": 12,
-                    "endOffset": 46648
+                    "endOffset": 46724
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5375,12 +5413,12 @@
             },
             {
                 "to": {
-                    "startLine": 470,
+                    "startLine": 472,
                     "startColumn": 4,
-                    "startOffset": 46653,
-                    "endLine": 475,
+                    "startOffset": 46729,
+                    "endLine": 477,
                     "endColumn": 12,
-                    "endOffset": 47056
+                    "endOffset": 47132
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5396,12 +5434,12 @@
             },
             {
                 "to": {
-                    "startLine": 476,
+                    "startLine": 478,
                     "startColumn": 4,
-                    "startOffset": 47061,
-                    "endLine": 479,
+                    "startOffset": 47137,
+                    "endLine": 481,
                     "endColumn": 12,
-                    "endOffset": 47295
+                    "endOffset": 47371
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5417,11 +5455,11 @@
             },
             {
                 "to": {
-                    "startLine": 480,
+                    "startLine": 482,
                     "startColumn": 4,
-                    "startOffset": 47300,
+                    "startOffset": 47376,
                     "endColumn": 93,
-                    "endOffset": 47389
+                    "endOffset": 47465
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5436,11 +5474,11 @@
             },
             {
                 "to": {
-                    "startLine": 481,
+                    "startLine": 483,
                     "startColumn": 4,
-                    "startOffset": 47394,
+                    "startOffset": 47470,
                     "endColumn": 57,
-                    "endOffset": 47447
+                    "endOffset": 47523
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5455,12 +5493,12 @@
             },
             {
                 "to": {
-                    "startLine": 482,
+                    "startLine": 484,
                     "startColumn": 4,
-                    "startOffset": 47452,
-                    "endLine": 485,
+                    "startOffset": 47528,
+                    "endLine": 487,
                     "endColumn": 12,
-                    "endOffset": 47684
+                    "endOffset": 47760
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5476,12 +5514,12 @@
             },
             {
                 "to": {
-                    "startLine": 486,
+                    "startLine": 488,
                     "startColumn": 4,
-                    "startOffset": 47689,
-                    "endLine": 512,
+                    "startOffset": 47765,
+                    "endLine": 514,
                     "endColumn": 12,
-                    "endOffset": 49730
+                    "endOffset": 49806
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5497,12 +5535,12 @@
             },
             {
                 "to": {
-                    "startLine": 513,
+                    "startLine": 515,
                     "startColumn": 4,
-                    "startOffset": 49735,
-                    "endLine": 516,
+                    "startOffset": 49811,
+                    "endLine": 518,
                     "endColumn": 12,
-                    "endOffset": 49972
+                    "endOffset": 50048
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5518,12 +5556,12 @@
             },
             {
                 "to": {
-                    "startLine": 517,
+                    "startLine": 519,
                     "startColumn": 4,
-                    "startOffset": 49977,
-                    "endLine": 544,
+                    "startOffset": 50053,
+                    "endLine": 546,
                     "endColumn": 12,
-                    "endOffset": 52150
+                    "endOffset": 52226
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5539,12 +5577,12 @@
             },
             {
                 "to": {
-                    "startLine": 545,
+                    "startLine": 547,
                     "startColumn": 4,
-                    "startOffset": 52155,
-                    "endLine": 690,
+                    "startOffset": 52231,
+                    "endLine": 692,
                     "endColumn": 12,
-                    "endOffset": 61429
+                    "endOffset": 61505
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5560,12 +5598,12 @@
             },
             {
                 "to": {
-                    "startLine": 691,
+                    "startLine": 693,
                     "startColumn": 4,
-                    "startOffset": 61434,
-                    "endLine": 712,
+                    "startOffset": 61510,
+                    "endLine": 714,
                     "endColumn": 12,
-                    "endOffset": 62696
+                    "endOffset": 62772
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5581,12 +5619,12 @@
             },
             {
                 "to": {
-                    "startLine": 713,
+                    "startLine": 715,
                     "startColumn": 4,
-                    "startOffset": 62701,
-                    "endLine": 858,
+                    "startOffset": 62777,
+                    "endLine": 860,
                     "endColumn": 12,
-                    "endOffset": 72085
+                    "endOffset": 72161
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5602,12 +5640,12 @@
             },
             {
                 "to": {
-                    "startLine": 859,
+                    "startLine": 861,
                     "startColumn": 4,
-                    "startOffset": 72090,
-                    "endLine": 880,
+                    "startOffset": 72166,
+                    "endLine": 882,
                     "endColumn": 12,
-                    "endOffset": 73366
+                    "endOffset": 73442
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5623,12 +5661,12 @@
             },
             {
                 "to": {
-                    "startLine": 881,
+                    "startLine": 883,
                     "startColumn": 4,
-                    "startOffset": 73371,
-                    "endLine": 887,
+                    "startOffset": 73447,
+                    "endLine": 889,
                     "endColumn": 12,
-                    "endOffset": 73902
+                    "endOffset": 73978
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5644,12 +5682,12 @@
             },
             {
                 "to": {
-                    "startLine": 888,
+                    "startLine": 890,
                     "startColumn": 4,
-                    "startOffset": 73907,
-                    "endLine": 892,
+                    "startOffset": 73983,
+                    "endLine": 894,
                     "endColumn": 12,
-                    "endOffset": 74232
+                    "endOffset": 74308
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5665,12 +5703,12 @@
             },
             {
                 "to": {
-                    "startLine": 893,
+                    "startLine": 895,
                     "startColumn": 4,
-                    "startOffset": 74237,
-                    "endLine": 913,
+                    "startOffset": 74313,
+                    "endLine": 915,
                     "endColumn": 12,
-                    "endOffset": 75355
+                    "endOffset": 75431
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5686,12 +5724,12 @@
             },
             {
                 "to": {
-                    "startLine": 914,
+                    "startLine": 916,
                     "startColumn": 4,
-                    "startOffset": 75360,
-                    "endLine": 918,
+                    "startOffset": 75436,
+                    "endLine": 920,
                     "endColumn": 12,
-                    "endOffset": 75611
+                    "endOffset": 75687
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5707,12 +5745,12 @@
             },
             {
                 "to": {
-                    "startLine": 919,
+                    "startLine": 921,
                     "startColumn": 4,
-                    "startOffset": 75616,
-                    "endLine": 923,
+                    "startOffset": 75692,
+                    "endLine": 925,
                     "endColumn": 12,
-                    "endOffset": 75847
+                    "endOffset": 75923
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5728,12 +5766,12 @@
             },
             {
                 "to": {
-                    "startLine": 924,
+                    "startLine": 926,
                     "startColumn": 4,
-                    "startOffset": 75852,
-                    "endLine": 933,
+                    "startOffset": 75928,
+                    "endLine": 935,
                     "endColumn": 12,
-                    "endOffset": 76394
+                    "endOffset": 76470
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5749,12 +5787,12 @@
             },
             {
                 "to": {
-                    "startLine": 934,
+                    "startLine": 936,
                     "startColumn": 4,
-                    "startOffset": 76399,
-                    "endLine": 942,
+                    "startOffset": 76475,
+                    "endLine": 944,
                     "endColumn": 12,
-                    "endOffset": 76888
+                    "endOffset": 76964
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5770,12 +5808,12 @@
             },
             {
                 "to": {
-                    "startLine": 943,
+                    "startLine": 945,
                     "startColumn": 4,
-                    "startOffset": 76893,
-                    "endLine": 953,
+                    "startOffset": 76969,
+                    "endLine": 955,
                     "endColumn": 12,
-                    "endOffset": 77561
+                    "endOffset": 77637
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5791,12 +5829,12 @@
             },
             {
                 "to": {
-                    "startLine": 954,
+                    "startLine": 956,
                     "startColumn": 4,
-                    "startOffset": 77566,
-                    "endLine": 957,
+                    "startOffset": 77642,
+                    "endLine": 959,
                     "endColumn": 12,
-                    "endOffset": 77776
+                    "endOffset": 77852
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5812,12 +5850,12 @@
             },
             {
                 "to": {
-                    "startLine": 958,
+                    "startLine": 960,
                     "startColumn": 4,
-                    "startOffset": 77781,
-                    "endLine": 964,
+                    "startOffset": 77857,
+                    "endLine": 966,
                     "endColumn": 12,
-                    "endOffset": 78304
+                    "endOffset": 78380
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5833,12 +5871,12 @@
             },
             {
                 "to": {
-                    "startLine": 965,
+                    "startLine": 967,
                     "startColumn": 4,
-                    "startOffset": 78309,
-                    "endLine": 972,
+                    "startOffset": 78385,
+                    "endLine": 974,
                     "endColumn": 12,
-                    "endOffset": 78868
+                    "endOffset": 78944
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5854,12 +5892,12 @@
             },
             {
                 "to": {
-                    "startLine": 973,
+                    "startLine": 975,
                     "startColumn": 4,
-                    "startOffset": 78873,
-                    "endLine": 979,
+                    "startOffset": 78949,
+                    "endLine": 981,
                     "endColumn": 12,
-                    "endOffset": 79243
+                    "endOffset": 79319
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5875,11 +5913,11 @@
             },
             {
                 "to": {
-                    "startLine": 980,
+                    "startLine": 982,
                     "startColumn": 4,
-                    "startOffset": 79248,
+                    "startOffset": 79324,
                     "endColumn": 117,
-                    "endOffset": 79361
+                    "endOffset": 79437
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5894,12 +5932,12 @@
             },
             {
                 "to": {
-                    "startLine": 981,
+                    "startLine": 983,
                     "startColumn": 4,
-                    "startOffset": 79366,
-                    "endLine": 989,
+                    "startOffset": 79442,
+                    "endLine": 991,
                     "endColumn": 12,
-                    "endOffset": 79899
+                    "endOffset": 79975
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5915,12 +5953,12 @@
             },
             {
                 "to": {
-                    "startLine": 990,
+                    "startLine": 992,
                     "startColumn": 4,
-                    "startOffset": 79904,
-                    "endLine": 992,
+                    "startOffset": 79980,
+                    "endLine": 994,
                     "endColumn": 12,
-                    "endOffset": 80056
+                    "endOffset": 80132
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5936,12 +5974,12 @@
             },
             {
                 "to": {
-                    "startLine": 993,
+                    "startLine": 995,
                     "startColumn": 4,
-                    "startOffset": 80061,
-                    "endLine": 995,
+                    "startOffset": 80137,
+                    "endLine": 997,
                     "endColumn": 12,
-                    "endOffset": 80200
+                    "endOffset": 80276
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5957,12 +5995,12 @@
             },
             {
                 "to": {
-                    "startLine": 996,
+                    "startLine": 998,
                     "startColumn": 4,
-                    "startOffset": 80205,
-                    "endLine": 1000,
+                    "startOffset": 80281,
+                    "endLine": 1002,
                     "endColumn": 12,
-                    "endOffset": 80520
+                    "endOffset": 80596
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5978,12 +6016,12 @@
             },
             {
                 "to": {
-                    "startLine": 1001,
+                    "startLine": 1003,
                     "startColumn": 4,
-                    "startOffset": 80525,
-                    "endLine": 1004,
+                    "startOffset": 80601,
+                    "endLine": 1006,
                     "endColumn": 12,
-                    "endOffset": 80690
+                    "endOffset": 80766
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -5999,12 +6037,12 @@
             },
             {
                 "to": {
-                    "startLine": 1005,
+                    "startLine": 1007,
                     "startColumn": 4,
-                    "startOffset": 80695,
-                    "endLine": 1007,
+                    "startOffset": 80771,
+                    "endLine": 1009,
                     "endColumn": 12,
-                    "endOffset": 80831
+                    "endOffset": 80907
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6020,12 +6058,12 @@
             },
             {
                 "to": {
-                    "startLine": 1008,
+                    "startLine": 1010,
                     "startColumn": 4,
-                    "startOffset": 80836,
-                    "endLine": 1010,
+                    "startOffset": 80912,
+                    "endLine": 1012,
                     "endColumn": 12,
-                    "endOffset": 80960
+                    "endOffset": 81036
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6041,12 +6079,12 @@
             },
             {
                 "to": {
-                    "startLine": 1011,
+                    "startLine": 1013,
                     "startColumn": 4,
-                    "startOffset": 80965,
-                    "endLine": 1014,
+                    "startOffset": 81041,
+                    "endLine": 1016,
                     "endColumn": 12,
-                    "endOffset": 81259
+                    "endOffset": 81335
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6062,12 +6100,12 @@
             },
             {
                 "to": {
-                    "startLine": 1015,
+                    "startLine": 1017,
                     "startColumn": 4,
-                    "startOffset": 81264,
-                    "endLine": 1018,
+                    "startOffset": 81340,
+                    "endLine": 1020,
                     "endColumn": 12,
-                    "endOffset": 81562
+                    "endOffset": 81638
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6083,12 +6121,12 @@
             },
             {
                 "to": {
-                    "startLine": 1019,
+                    "startLine": 1021,
                     "startColumn": 4,
-                    "startOffset": 81567,
-                    "endLine": 1026,
+                    "startOffset": 81643,
+                    "endLine": 1028,
                     "endColumn": 12,
-                    "endOffset": 82121
+                    "endOffset": 82197
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6104,12 +6142,12 @@
             },
             {
                 "to": {
-                    "startLine": 1027,
+                    "startLine": 1029,
                     "startColumn": 4,
-                    "startOffset": 82126,
-                    "endLine": 1031,
+                    "startOffset": 82202,
+                    "endLine": 1033,
                     "endColumn": 12,
-                    "endOffset": 82383
+                    "endOffset": 82459
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6125,12 +6163,12 @@
             },
             {
                 "to": {
-                    "startLine": 1032,
+                    "startLine": 1034,
                     "startColumn": 4,
-                    "startOffset": 82388,
-                    "endLine": 1038,
+                    "startOffset": 82464,
+                    "endLine": 1040,
                     "endColumn": 12,
-                    "endOffset": 82733
+                    "endOffset": 82809
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6146,12 +6184,12 @@
             },
             {
                 "to": {
-                    "startLine": 1039,
+                    "startLine": 1041,
                     "startColumn": 4,
-                    "startOffset": 82738,
-                    "endLine": 1044,
+                    "startOffset": 82814,
+                    "endLine": 1046,
                     "endColumn": 12,
-                    "endOffset": 83086
+                    "endOffset": 83162
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6167,11 +6205,11 @@
             },
             {
                 "to": {
-                    "startLine": 1045,
+                    "startLine": 1047,
                     "startColumn": 4,
-                    "startOffset": 83091,
+                    "startOffset": 83167,
                     "endColumn": 93,
-                    "endOffset": 83180
+                    "endOffset": 83256
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6186,12 +6224,12 @@
             },
             {
                 "to": {
-                    "startLine": 1046,
+                    "startLine": 1048,
                     "startColumn": 4,
-                    "startOffset": 83185,
-                    "endLine": 1049,
+                    "startOffset": 83261,
+                    "endLine": 1051,
                     "endColumn": 12,
-                    "endOffset": 83486
+                    "endOffset": 83562
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6207,12 +6245,12 @@
             },
             {
                 "to": {
-                    "startLine": 1050,
+                    "startLine": 1052,
                     "startColumn": 4,
-                    "startOffset": 83491,
-                    "endLine": 1054,
+                    "startOffset": 83567,
+                    "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 83748
+                    "endOffset": 83824
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6228,12 +6266,12 @@
             },
             {
                 "to": {
-                    "startLine": 1055,
+                    "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 83753,
-                    "endLine": 1056,
+                    "startOffset": 83829,
+                    "endLine": 1058,
                     "endColumn": 12,
-                    "endOffset": 83873
+                    "endOffset": 83949
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6249,12 +6287,12 @@
             },
             {
                 "to": {
-                    "startLine": 1057,
+                    "startLine": 1059,
                     "startColumn": 4,
-                    "startOffset": 83878,
-                    "endLine": 1058,
+                    "startOffset": 83954,
+                    "endLine": 1060,
                     "endColumn": 12,
-                    "endOffset": 84000
+                    "endOffset": 84076
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6270,12 +6308,12 @@
             },
             {
                 "to": {
-                    "startLine": 1059,
+                    "startLine": 1061,
                     "startColumn": 4,
-                    "startOffset": 84005,
-                    "endLine": 1061,
+                    "startOffset": 84081,
+                    "endLine": 1063,
                     "endColumn": 12,
-                    "endOffset": 84239
+                    "endOffset": 84315
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6291,12 +6329,12 @@
             },
             {
                 "to": {
-                    "startLine": 1062,
+                    "startLine": 1064,
                     "startColumn": 4,
-                    "startOffset": 84244,
-                    "endLine": 1064,
+                    "startOffset": 84320,
+                    "endLine": 1066,
                     "endColumn": 12,
-                    "endOffset": 84450
+                    "endOffset": 84526
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6312,12 +6350,12 @@
             },
             {
                 "to": {
-                    "startLine": 1065,
+                    "startLine": 1067,
                     "startColumn": 4,
-                    "startOffset": 84455,
-                    "endLine": 1066,
+                    "startOffset": 84531,
+                    "endLine": 1068,
                     "endColumn": 12,
-                    "endOffset": 84569
+                    "endOffset": 84645
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6333,12 +6371,12 @@
             },
             {
                 "to": {
-                    "startLine": 1067,
+                    "startLine": 1069,
                     "startColumn": 4,
-                    "startOffset": 84574,
-                    "endLine": 1070,
+                    "startOffset": 84650,
+                    "endLine": 1072,
                     "endColumn": 12,
-                    "endOffset": 84762
+                    "endOffset": 84838
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6354,12 +6392,12 @@
             },
             {
                 "to": {
-                    "startLine": 1071,
+                    "startLine": 1073,
                     "startColumn": 4,
-                    "startOffset": 84767,
-                    "endLine": 1077,
+                    "startOffset": 84843,
+                    "endLine": 1079,
                     "endColumn": 12,
-                    "endOffset": 85217
+                    "endOffset": 85293
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6375,12 +6413,12 @@
             },
             {
                 "to": {
-                    "startLine": 1078,
+                    "startLine": 1080,
                     "startColumn": 4,
-                    "startOffset": 85222,
-                    "endLine": 1080,
+                    "startOffset": 85298,
+                    "endLine": 1082,
                     "endColumn": 12,
-                    "endOffset": 85398
+                    "endOffset": 85474
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6396,12 +6434,12 @@
             },
             {
                 "to": {
-                    "startLine": 1081,
+                    "startLine": 1083,
                     "startColumn": 4,
-                    "startOffset": 85403,
-                    "endLine": 1083,
+                    "startOffset": 85479,
+                    "endLine": 1085,
                     "endColumn": 12,
-                    "endOffset": 85520
+                    "endOffset": 85596
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6417,12 +6455,12 @@
             },
             {
                 "to": {
-                    "startLine": 1084,
+                    "startLine": 1086,
                     "startColumn": 4,
-                    "startOffset": 85525,
-                    "endLine": 1087,
+                    "startOffset": 85601,
+                    "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 85779
+                    "endOffset": 85855
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6438,12 +6476,12 @@
             },
             {
                 "to": {
-                    "startLine": 1088,
+                    "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 85784,
-                    "endLine": 1089,
+                    "startOffset": 85860,
+                    "endLine": 1091,
                     "endColumn": 12,
-                    "endOffset": 85892
+                    "endOffset": 85968
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6459,12 +6497,12 @@
             },
             {
                 "to": {
-                    "startLine": 1090,
+                    "startLine": 1092,
                     "startColumn": 4,
-                    "startOffset": 85897,
-                    "endLine": 1093,
+                    "startOffset": 85973,
+                    "endLine": 1095,
                     "endColumn": 12,
-                    "endOffset": 86079
+                    "endOffset": 86155
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6480,12 +6518,12 @@
             },
             {
                 "to": {
-                    "startLine": 1094,
+                    "startLine": 1096,
                     "startColumn": 4,
-                    "startOffset": 86084,
-                    "endLine": 1095,
+                    "startOffset": 86160,
+                    "endLine": 1097,
                     "endColumn": 12,
-                    "endOffset": 86181
+                    "endOffset": 86257
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6501,12 +6539,12 @@
             },
             {
                 "to": {
-                    "startLine": 1096,
+                    "startLine": 1098,
                     "startColumn": 4,
-                    "startOffset": 86186,
-                    "endLine": 1101,
+                    "startOffset": 86262,
+                    "endLine": 1103,
                     "endColumn": 12,
-                    "endOffset": 86625
+                    "endOffset": 86701
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6522,12 +6560,12 @@
             },
             {
                 "to": {
-                    "startLine": 1102,
+                    "startLine": 1104,
                     "startColumn": 4,
-                    "startOffset": 86630,
-                    "endLine": 1103,
+                    "startOffset": 86706,
+                    "endLine": 1105,
                     "endColumn": 12,
-                    "endOffset": 86749
+                    "endOffset": 86825
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6543,12 +6581,12 @@
             },
             {
                 "to": {
-                    "startLine": 1104,
+                    "startLine": 1106,
                     "startColumn": 4,
-                    "startOffset": 86754,
-                    "endLine": 1107,
+                    "startOffset": 86830,
+                    "endLine": 1109,
                     "endColumn": 12,
-                    "endOffset": 87034
+                    "endOffset": 87110
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6564,12 +6602,12 @@
             },
             {
                 "to": {
-                    "startLine": 1108,
+                    "startLine": 1110,
                     "startColumn": 4,
-                    "startOffset": 87039,
-                    "endLine": 1119,
+                    "startOffset": 87115,
+                    "endLine": 1121,
                     "endColumn": 12,
-                    "endOffset": 87921
+                    "endOffset": 87997
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6585,12 +6623,12 @@
             },
             {
                 "to": {
-                    "startLine": 1120,
+                    "startLine": 1122,
                     "startColumn": 4,
-                    "startOffset": 87926,
-                    "endLine": 1125,
+                    "startOffset": 88002,
+                    "endLine": 1127,
                     "endColumn": 12,
-                    "endOffset": 88215
+                    "endOffset": 88291
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6606,12 +6644,12 @@
             },
             {
                 "to": {
-                    "startLine": 1126,
+                    "startLine": 1128,
                     "startColumn": 4,
-                    "startOffset": 88220,
-                    "endLine": 1130,
+                    "startOffset": 88296,
+                    "endLine": 1132,
                     "endColumn": 12,
-                    "endOffset": 88545
+                    "endOffset": 88621
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6627,12 +6665,12 @@
             },
             {
                 "to": {
-                    "startLine": 1131,
+                    "startLine": 1133,
                     "startColumn": 4,
-                    "startOffset": 88550,
-                    "endLine": 1145,
+                    "startOffset": 88626,
+                    "endLine": 1147,
                     "endColumn": 12,
-                    "endOffset": 89465
+                    "endOffset": 89541
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6648,12 +6686,12 @@
             },
             {
                 "to": {
-                    "startLine": 1146,
+                    "startLine": 1148,
                     "startColumn": 4,
-                    "startOffset": 89470,
-                    "endLine": 1148,
+                    "startOffset": 89546,
+                    "endLine": 1150,
                     "endColumn": 12,
-                    "endOffset": 89637
+                    "endOffset": 89713
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6669,12 +6707,12 @@
             },
             {
                 "to": {
-                    "startLine": 1149,
+                    "startLine": 1151,
                     "startColumn": 4,
-                    "startOffset": 89642,
-                    "endLine": 1153,
+                    "startOffset": 89718,
+                    "endLine": 1155,
                     "endColumn": 12,
-                    "endOffset": 89973
+                    "endOffset": 90049
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6690,12 +6728,12 @@
             },
             {
                 "to": {
-                    "startLine": 1154,
+                    "startLine": 1156,
                     "startColumn": 4,
-                    "startOffset": 89978,
-                    "endLine": 1163,
+                    "startOffset": 90054,
+                    "endLine": 1165,
                     "endColumn": 12,
-                    "endOffset": 90639
+                    "endOffset": 90715
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6711,12 +6749,12 @@
             },
             {
                 "to": {
-                    "startLine": 1164,
+                    "startLine": 1166,
                     "startColumn": 4,
-                    "startOffset": 90644,
-                    "endLine": 1168,
+                    "startOffset": 90720,
+                    "endLine": 1170,
                     "endColumn": 12,
-                    "endOffset": 90924
+                    "endOffset": 91000
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6732,12 +6770,12 @@
             },
             {
                 "to": {
-                    "startLine": 1169,
+                    "startLine": 1171,
                     "startColumn": 4,
-                    "startOffset": 90929,
-                    "endLine": 1206,
+                    "startOffset": 91005,
+                    "endLine": 1208,
                     "endColumn": 12,
-                    "endOffset": 93813
+                    "endOffset": 93889
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6753,12 +6791,12 @@
             },
             {
                 "to": {
-                    "startLine": 1207,
+                    "startLine": 1209,
                     "startColumn": 4,
-                    "startOffset": 93818,
-                    "endLine": 1245,
+                    "startOffset": 93894,
+                    "endLine": 1247,
                     "endColumn": 12,
-                    "endOffset": 96843
+                    "endOffset": 96919
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6774,12 +6812,12 @@
             },
             {
                 "to": {
-                    "startLine": 1246,
+                    "startLine": 1248,
                     "startColumn": 4,
-                    "startOffset": 96848,
-                    "endLine": 1255,
+                    "startOffset": 96924,
+                    "endLine": 1257,
                     "endColumn": 12,
-                    "endOffset": 97483
+                    "endOffset": 97559
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6795,12 +6833,12 @@
             },
             {
                 "to": {
-                    "startLine": 1256,
+                    "startLine": 1258,
                     "startColumn": 4,
-                    "startOffset": 97488,
-                    "endLine": 1264,
+                    "startOffset": 97564,
+                    "endLine": 1266,
                     "endColumn": 12,
-                    "endOffset": 98107
+                    "endOffset": 98183
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6816,12 +6854,12 @@
             },
             {
                 "to": {
-                    "startLine": 1265,
+                    "startLine": 1267,
                     "startColumn": 4,
-                    "startOffset": 98112,
-                    "endLine": 1266,
+                    "startOffset": 98188,
+                    "endLine": 1268,
                     "endColumn": 12,
-                    "endOffset": 98220
+                    "endOffset": 98296
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6837,12 +6875,12 @@
             },
             {
                 "to": {
-                    "startLine": 1267,
+                    "startLine": 1269,
                     "startColumn": 4,
-                    "startOffset": 98225,
-                    "endLine": 1270,
+                    "startOffset": 98301,
+                    "endLine": 1272,
                     "endColumn": 12,
-                    "endOffset": 98449
+                    "endOffset": 98525
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6858,12 +6896,12 @@
             },
             {
                 "to": {
-                    "startLine": 1271,
+                    "startLine": 1273,
                     "startColumn": 4,
-                    "startOffset": 98454,
-                    "endLine": 1274,
+                    "startOffset": 98530,
+                    "endLine": 1276,
                     "endColumn": 12,
-                    "endOffset": 98787
+                    "endOffset": 98863
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6879,12 +6917,12 @@
             },
             {
                 "to": {
-                    "startLine": 1275,
+                    "startLine": 1277,
                     "startColumn": 4,
-                    "startOffset": 98792,
-                    "endLine": 1277,
+                    "startOffset": 98868,
+                    "endLine": 1279,
                     "endColumn": 12,
-                    "endOffset": 98947
+                    "endOffset": 99023
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6900,12 +6938,12 @@
             },
             {
                 "to": {
-                    "startLine": 1278,
+                    "startLine": 1280,
                     "startColumn": 4,
-                    "startOffset": 98952,
-                    "endLine": 1280,
+                    "startOffset": 99028,
+                    "endLine": 1282,
                     "endColumn": 12,
-                    "endOffset": 99099
+                    "endOffset": 99175
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6921,12 +6959,12 @@
             },
             {
                 "to": {
-                    "startLine": 1281,
+                    "startLine": 1283,
                     "startColumn": 4,
-                    "startOffset": 99104,
-                    "endLine": 1283,
+                    "startOffset": 99180,
+                    "endLine": 1285,
                     "endColumn": 12,
-                    "endOffset": 99270
+                    "endOffset": 99346
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6942,12 +6980,12 @@
             },
             {
                 "to": {
-                    "startLine": 1284,
+                    "startLine": 1286,
                     "startColumn": 4,
-                    "startOffset": 99275,
-                    "endLine": 1286,
+                    "startOffset": 99351,
+                    "endLine": 1288,
                     "endColumn": 12,
-                    "endOffset": 99437
+                    "endOffset": 99513
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6963,12 +7001,12 @@
             },
             {
                 "to": {
-                    "startLine": 1287,
+                    "startLine": 1289,
                     "startColumn": 4,
-                    "startOffset": 99442,
-                    "endLine": 1290,
+                    "startOffset": 99518,
+                    "endLine": 1292,
                     "endColumn": 12,
-                    "endOffset": 99680
+                    "endOffset": 99756
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -6984,12 +7022,12 @@
             },
             {
                 "to": {
-                    "startLine": 1291,
+                    "startLine": 1293,
                     "startColumn": 4,
-                    "startOffset": 99685,
-                    "endLine": 1293,
+                    "startOffset": 99761,
+                    "endLine": 1295,
                     "endColumn": 12,
-                    "endOffset": 99850
+                    "endOffset": 99926
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7005,12 +7043,12 @@
             },
             {
                 "to": {
-                    "startLine": 1294,
+                    "startLine": 1296,
                     "startColumn": 4,
-                    "startOffset": 99855,
-                    "endLine": 1296,
+                    "startOffset": 99931,
+                    "endLine": 1298,
                     "endColumn": 12,
-                    "endOffset": 100023
+                    "endOffset": 100099
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7026,12 +7064,12 @@
             },
             {
                 "to": {
-                    "startLine": 1297,
+                    "startLine": 1299,
                     "startColumn": 4,
-                    "startOffset": 100028,
-                    "endLine": 1299,
+                    "startOffset": 100104,
+                    "endLine": 1301,
                     "endColumn": 12,
-                    "endOffset": 100194
+                    "endOffset": 100270
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7047,12 +7085,12 @@
             },
             {
                 "to": {
-                    "startLine": 1300,
+                    "startLine": 1302,
                     "startColumn": 4,
-                    "startOffset": 100199,
-                    "endLine": 1303,
+                    "startOffset": 100275,
+                    "endLine": 1305,
                     "endColumn": 12,
-                    "endOffset": 100468
+                    "endOffset": 100544
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7068,12 +7106,12 @@
             },
             {
                 "to": {
-                    "startLine": 1304,
+                    "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 100473,
-                    "endLine": 1306,
+                    "startOffset": 100549,
+                    "endLine": 1308,
                     "endColumn": 12,
-                    "endOffset": 100667
+                    "endOffset": 100743
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7089,12 +7127,12 @@
             },
             {
                 "to": {
-                    "startLine": 1307,
+                    "startLine": 1309,
                     "startColumn": 4,
-                    "startOffset": 100672,
-                    "endLine": 1309,
+                    "startOffset": 100748,
+                    "endLine": 1311,
                     "endColumn": 12,
-                    "endOffset": 100914
+                    "endOffset": 100990
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7110,11 +7148,11 @@
             },
             {
                 "to": {
-                    "startLine": 1310,
+                    "startLine": 1312,
                     "startColumn": 4,
-                    "startOffset": 100919,
+                    "startOffset": 100995,
                     "endColumn": 83,
-                    "endOffset": 100998
+                    "endOffset": 101074
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7129,11 +7167,11 @@
             },
             {
                 "to": {
-                    "startLine": 1311,
+                    "startLine": 1313,
                     "startColumn": 4,
-                    "startOffset": 101003,
+                    "startOffset": 101079,
                     "endColumn": 95,
-                    "endOffset": 101094
+                    "endOffset": 101170
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7148,11 +7186,11 @@
             },
             {
                 "to": {
-                    "startLine": 1312,
+                    "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 101099,
+                    "startOffset": 101175,
                     "endColumn": 95,
-                    "endOffset": 101190
+                    "endOffset": 101266
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7167,11 +7205,11 @@
             },
             {
                 "to": {
-                    "startLine": 1313,
+                    "startLine": 1315,
                     "startColumn": 4,
-                    "startOffset": 101195,
+                    "startOffset": 101271,
                     "endColumn": 97,
-                    "endOffset": 101288
+                    "endOffset": 101364
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7186,11 +7224,11 @@
             },
             {
                 "to": {
-                    "startLine": 1314,
+                    "startLine": 1316,
                     "startColumn": 4,
-                    "startOffset": 101293,
+                    "startOffset": 101369,
                     "endColumn": 99,
-                    "endOffset": 101388
+                    "endOffset": 101464
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7205,11 +7243,11 @@
             },
             {
                 "to": {
-                    "startLine": 1315,
+                    "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 101393,
+                    "startOffset": 101469,
                     "endColumn": 101,
-                    "endOffset": 101490
+                    "endOffset": 101566
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7224,11 +7262,11 @@
             },
             {
                 "to": {
-                    "startLine": 1316,
+                    "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 101495,
+                    "startOffset": 101571,
                     "endColumn": 101,
-                    "endOffset": 101592
+                    "endOffset": 101668
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7243,11 +7281,11 @@
             },
             {
                 "to": {
-                    "startLine": 1317,
+                    "startLine": 1319,
                     "startColumn": 4,
-                    "startOffset": 101597,
+                    "startOffset": 101673,
                     "endColumn": 101,
-                    "endOffset": 101694
+                    "endOffset": 101770
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7262,11 +7300,11 @@
             },
             {
                 "to": {
-                    "startLine": 1318,
+                    "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 101699,
+                    "startOffset": 101775,
                     "endColumn": 101,
-                    "endOffset": 101796
+                    "endOffset": 101872
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7281,11 +7319,11 @@
             },
             {
                 "to": {
-                    "startLine": 1319,
+                    "startLine": 1321,
                     "startColumn": 4,
-                    "startOffset": 101801,
+                    "startOffset": 101877,
                     "endColumn": 101,
-                    "endOffset": 101898
+                    "endOffset": 101974
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7300,11 +7338,11 @@
             },
             {
                 "to": {
-                    "startLine": 1320,
+                    "startLine": 1322,
                     "startColumn": 4,
-                    "startOffset": 101903,
+                    "startOffset": 101979,
                     "endColumn": 99,
-                    "endOffset": 101998
+                    "endOffset": 102074
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7319,11 +7357,11 @@
             },
             {
                 "to": {
-                    "startLine": 1321,
+                    "startLine": 1323,
                     "startColumn": 4,
-                    "startOffset": 102003,
+                    "startOffset": 102079,
                     "endColumn": 95,
-                    "endOffset": 102094
+                    "endOffset": 102170
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7338,11 +7376,11 @@
             },
             {
                 "to": {
-                    "startLine": 1322,
+                    "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 102099,
+                    "startOffset": 102175,
                     "endColumn": 111,
-                    "endOffset": 102206
+                    "endOffset": 102282
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7357,11 +7395,11 @@
             },
             {
                 "to": {
-                    "startLine": 1323,
+                    "startLine": 1325,
                     "startColumn": 4,
-                    "startOffset": 102211,
+                    "startOffset": 102287,
                     "endColumn": 128,
-                    "endOffset": 102335
+                    "endOffset": 102411
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7376,11 +7414,11 @@
             },
             {
                 "to": {
-                    "startLine": 1324,
+                    "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 102340,
+                    "startOffset": 102416,
                     "endColumn": 122,
-                    "endOffset": 102458
+                    "endOffset": 102534
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7395,12 +7433,12 @@
             },
             {
                 "to": {
-                    "startLine": 1325,
+                    "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 102463,
-                    "endLine": 1326,
+                    "startOffset": 102539,
+                    "endLine": 1328,
                     "endColumn": 12,
-                    "endOffset": 102612
+                    "endOffset": 102688
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7416,12 +7454,12 @@
             },
             {
                 "to": {
-                    "startLine": 1327,
+                    "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 102617,
-                    "endLine": 1328,
+                    "startOffset": 102693,
+                    "endLine": 1330,
                     "endColumn": 12,
-                    "endOffset": 102766
+                    "endOffset": 102842
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7437,11 +7475,11 @@
             },
             {
                 "to": {
-                    "startLine": 1329,
+                    "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 102771,
+                    "startOffset": 102847,
                     "endColumn": 97,
-                    "endOffset": 102864
+                    "endOffset": 102940
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7456,11 +7494,11 @@
             },
             {
                 "to": {
-                    "startLine": 1330,
+                    "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 102869,
+                    "startOffset": 102945,
                     "endColumn": 113,
-                    "endOffset": 102978
+                    "endOffset": 103054
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7475,11 +7513,11 @@
             },
             {
                 "to": {
-                    "startLine": 1331,
+                    "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 102983,
+                    "startOffset": 103059,
                     "endColumn": 93,
-                    "endOffset": 103072
+                    "endOffset": 103148
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7494,12 +7532,12 @@
             },
             {
                 "to": {
-                    "startLine": 1332,
+                    "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 103077,
-                    "endLine": 1333,
+                    "startOffset": 103153,
+                    "endLine": 1335,
                     "endColumn": 12,
-                    "endOffset": 103212
+                    "endOffset": 103288
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7515,12 +7553,12 @@
             },
             {
                 "to": {
-                    "startLine": 1334,
+                    "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 103217,
-                    "endLine": 1335,
+                    "startOffset": 103293,
+                    "endLine": 1337,
                     "endColumn": 12,
-                    "endOffset": 103346
+                    "endOffset": 103422
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7536,11 +7574,11 @@
             },
             {
                 "to": {
-                    "startLine": 1336,
+                    "startLine": 1338,
                     "startColumn": 4,
-                    "startOffset": 103351,
+                    "startOffset": 103427,
                     "endColumn": 95,
-                    "endOffset": 103442
+                    "endOffset": 103518
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7555,11 +7593,11 @@
             },
             {
                 "to": {
-                    "startLine": 1337,
+                    "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 103447,
+                    "startOffset": 103523,
                     "endColumn": 111,
-                    "endOffset": 103554
+                    "endOffset": 103630
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7574,11 +7612,11 @@
             },
             {
                 "to": {
-                    "startLine": 1338,
+                    "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 103559,
+                    "startOffset": 103635,
                     "endColumn": 99,
-                    "endOffset": 103654
+                    "endOffset": 103730
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7593,11 +7631,11 @@
             },
             {
                 "to": {
-                    "startLine": 1339,
+                    "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 103659,
+                    "startOffset": 103735,
                     "endColumn": 115,
-                    "endOffset": 103770
+                    "endOffset": 103846
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7612,11 +7650,11 @@
             },
             {
                 "to": {
-                    "startLine": 1340,
+                    "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 103775,
+                    "startOffset": 103851,
                     "endColumn": 95,
-                    "endOffset": 103866
+                    "endOffset": 103942
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7631,11 +7669,11 @@
             },
             {
                 "to": {
-                    "startLine": 1341,
+                    "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 103871,
+                    "startOffset": 103947,
                     "endColumn": 111,
-                    "endOffset": 103978
+                    "endOffset": 104054
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7650,12 +7688,12 @@
             },
             {
                 "to": {
-                    "startLine": 1342,
+                    "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 103983,
-                    "endLine": 1343,
+                    "startOffset": 104059,
+                    "endLine": 1345,
                     "endColumn": 12,
-                    "endOffset": 104118
+                    "endOffset": 104194
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7671,12 +7709,12 @@
             },
             {
                 "to": {
-                    "startLine": 1344,
+                    "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 104123,
-                    "endLine": 1345,
+                    "startOffset": 104199,
+                    "endLine": 1347,
                     "endColumn": 12,
-                    "endOffset": 104266
+                    "endOffset": 104342
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7692,12 +7730,12 @@
             },
             {
                 "to": {
-                    "startLine": 1346,
+                    "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 104271,
-                    "endLine": 1347,
+                    "startOffset": 104347,
+                    "endLine": 1349,
                     "endColumn": 12,
-                    "endOffset": 104430
+                    "endOffset": 104506
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7713,12 +7751,12 @@
             },
             {
                 "to": {
-                    "startLine": 1348,
+                    "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 104435,
-                    "endLine": 1349,
+                    "startOffset": 104511,
+                    "endLine": 1351,
                     "endColumn": 12,
-                    "endOffset": 104572
+                    "endOffset": 104648
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7734,12 +7772,12 @@
             },
             {
                 "to": {
-                    "startLine": 1350,
+                    "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 104577,
-                    "endLine": 1351,
+                    "startOffset": 104653,
+                    "endLine": 1353,
                     "endColumn": 12,
-                    "endOffset": 104730
+                    "endOffset": 104806
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7755,12 +7793,12 @@
             },
             {
                 "to": {
-                    "startLine": 1352,
+                    "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 104735,
-                    "endLine": 1353,
+                    "startOffset": 104811,
+                    "endLine": 1355,
                     "endColumn": 12,
-                    "endOffset": 104880
+                    "endOffset": 104956
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7776,11 +7814,11 @@
             },
             {
                 "to": {
-                    "startLine": 1354,
+                    "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 104885,
+                    "startOffset": 104961,
                     "endColumn": 140,
-                    "endOffset": 105021
+                    "endOffset": 105097
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7795,12 +7833,12 @@
             },
             {
                 "to": {
-                    "startLine": 1355,
+                    "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 105026,
-                    "endLine": 1356,
+                    "startOffset": 105102,
+                    "endLine": 1358,
                     "endColumn": 12,
-                    "endOffset": 105165
+                    "endOffset": 105241
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7816,11 +7854,11 @@
             },
             {
                 "to": {
-                    "startLine": 1357,
+                    "startLine": 1359,
                     "startColumn": 4,
-                    "startOffset": 105170,
+                    "startOffset": 105246,
                     "endColumn": 134,
-                    "endOffset": 105300
+                    "endOffset": 105376
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7835,12 +7873,12 @@
             },
             {
                 "to": {
-                    "startLine": 1358,
+                    "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 105305,
-                    "endLine": 1359,
+                    "startOffset": 105381,
+                    "endLine": 1361,
                     "endColumn": 12,
-                    "endOffset": 105436
+                    "endOffset": 105512
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7856,12 +7894,12 @@
             },
             {
                 "to": {
-                    "startLine": 1360,
+                    "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 105441,
-                    "endLine": 1361,
+                    "startOffset": 105517,
+                    "endLine": 1363,
                     "endColumn": 12,
-                    "endOffset": 105578
+                    "endOffset": 105654
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7877,12 +7915,12 @@
             },
             {
                 "to": {
-                    "startLine": 1362,
+                    "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 105583,
-                    "endLine": 1363,
+                    "startOffset": 105659,
+                    "endLine": 1365,
                     "endColumn": 12,
-                    "endOffset": 105720
+                    "endOffset": 105796
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7898,11 +7936,11 @@
             },
             {
                 "to": {
-                    "startLine": 1364,
+                    "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 105725,
+                    "startOffset": 105801,
                     "endColumn": 111,
-                    "endOffset": 105832
+                    "endOffset": 105908
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7917,11 +7955,11 @@
             },
             {
                 "to": {
-                    "startLine": 1365,
+                    "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 105837,
+                    "startOffset": 105913,
                     "endColumn": 139,
-                    "endOffset": 105972
+                    "endOffset": 106048
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7936,11 +7974,11 @@
             },
             {
                 "to": {
-                    "startLine": 1366,
+                    "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 105977,
+                    "startOffset": 106053,
                     "endColumn": 67,
-                    "endOffset": 106040
+                    "endOffset": 106116
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7955,11 +7993,11 @@
             },
             {
                 "to": {
-                    "startLine": 1367,
+                    "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 106045,
+                    "startOffset": 106121,
                     "endColumn": 72,
-                    "endOffset": 106113
+                    "endOffset": 106189
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7974,11 +8012,11 @@
             },
             {
                 "to": {
-                    "startLine": 1368,
+                    "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 106118,
+                    "startOffset": 106194,
                     "endColumn": 73,
-                    "endOffset": 106187
+                    "endOffset": 106263
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -7993,11 +8031,11 @@
             },
             {
                 "to": {
-                    "startLine": 1369,
+                    "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 106192,
+                    "startOffset": 106268,
                     "endColumn": 72,
-                    "endOffset": 106260
+                    "endOffset": 106336
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8012,11 +8050,11 @@
             },
             {
                 "to": {
-                    "startLine": 1370,
+                    "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 106265,
+                    "startOffset": 106341,
                     "endColumn": 73,
-                    "endOffset": 106334
+                    "endOffset": 106410
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8031,12 +8069,12 @@
             },
             {
                 "to": {
-                    "startLine": 1371,
+                    "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 106339,
-                    "endLine": 1372,
+                    "startOffset": 106415,
+                    "endLine": 1374,
                     "endColumn": 12,
-                    "endOffset": 106480
+                    "endOffset": 106556
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8052,12 +8090,12 @@
             },
             {
                 "to": {
-                    "startLine": 1373,
+                    "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 106485,
-                    "endLine": 1374,
+                    "startOffset": 106561,
+                    "endLine": 1376,
                     "endColumn": 12,
-                    "endOffset": 106624
+                    "endOffset": 106700
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8073,12 +8111,12 @@
             },
             {
                 "to": {
-                    "startLine": 1375,
+                    "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 106629,
-                    "endLine": 1376,
+                    "startOffset": 106705,
+                    "endLine": 1378,
                     "endColumn": 12,
-                    "endOffset": 106762
+                    "endOffset": 106838
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8094,11 +8132,11 @@
             },
             {
                 "to": {
-                    "startLine": 1377,
+                    "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 106767,
+                    "startOffset": 106843,
                     "endColumn": 65,
-                    "endOffset": 106828
+                    "endOffset": 106904
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8113,11 +8151,11 @@
             },
             {
                 "to": {
-                    "startLine": 1378,
+                    "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 106833,
+                    "startOffset": 106909,
                     "endColumn": 89,
-                    "endOffset": 106918
+                    "endOffset": 106994
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8132,11 +8170,11 @@
             },
             {
                 "to": {
-                    "startLine": 1379,
+                    "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 106923,
+                    "startOffset": 106999,
                     "endColumn": 79,
-                    "endOffset": 106998
+                    "endOffset": 107074
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8151,11 +8189,11 @@
             },
             {
                 "to": {
-                    "startLine": 1380,
+                    "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 107003,
+                    "startOffset": 107079,
                     "endColumn": 91,
-                    "endOffset": 107090
+                    "endOffset": 107166
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8170,11 +8208,11 @@
             },
             {
                 "to": {
-                    "startLine": 1381,
+                    "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 107095,
+                    "startOffset": 107171,
                     "endColumn": 97,
-                    "endOffset": 107188
+                    "endOffset": 107264
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8189,12 +8227,12 @@
             },
             {
                 "to": {
-                    "startLine": 1382,
+                    "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 107193,
-                    "endLine": 1383,
+                    "startOffset": 107269,
+                    "endLine": 1385,
                     "endColumn": 12,
-                    "endOffset": 107298
+                    "endOffset": 107374
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8210,11 +8248,11 @@
             },
             {
                 "to": {
-                    "startLine": 1384,
+                    "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 107303,
+                    "startOffset": 107379,
                     "endColumn": 77,
-                    "endOffset": 107376
+                    "endOffset": 107452
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8229,11 +8267,11 @@
             },
             {
                 "to": {
-                    "startLine": 1385,
+                    "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 107381,
+                    "startOffset": 107457,
                     "endColumn": 105,
-                    "endOffset": 107482
+                    "endOffset": 107558
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8248,11 +8286,11 @@
             },
             {
                 "to": {
-                    "startLine": 1386,
+                    "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 107487,
+                    "startOffset": 107563,
                     "endColumn": 91,
-                    "endOffset": 107574
+                    "endOffset": 107650
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8267,11 +8305,11 @@
             },
             {
                 "to": {
-                    "startLine": 1387,
+                    "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 107579,
+                    "startOffset": 107655,
                     "endColumn": 103,
-                    "endOffset": 107678
+                    "endOffset": 107754
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8286,11 +8324,11 @@
             },
             {
                 "to": {
-                    "startLine": 1388,
+                    "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 107683,
+                    "startOffset": 107759,
                     "endColumn": 109,
-                    "endOffset": 107788
+                    "endOffset": 107864
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8305,12 +8343,12 @@
             },
             {
                 "to": {
-                    "startLine": 1389,
+                    "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 107793,
-                    "endLine": 1390,
+                    "startOffset": 107869,
+                    "endLine": 1392,
                     "endColumn": 12,
-                    "endOffset": 107910
+                    "endOffset": 107986
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8326,12 +8364,12 @@
             },
             {
                 "to": {
-                    "startLine": 1391,
+                    "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 107915,
-                    "endLine": 1394,
+                    "startOffset": 107991,
+                    "endLine": 1396,
                     "endColumn": 12,
-                    "endOffset": 108073
+                    "endOffset": 108149
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8347,12 +8385,12 @@
             },
             {
                 "to": {
-                    "startLine": 1395,
+                    "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 108078,
-                    "endLine": 1398,
+                    "startOffset": 108154,
+                    "endLine": 1400,
                     "endColumn": 12,
-                    "endOffset": 108230
+                    "endOffset": 108306
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8368,11 +8406,11 @@
             },
             {
                 "to": {
-                    "startLine": 1399,
+                    "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 108235,
+                    "startOffset": 108311,
                     "endColumn": 79,
-                    "endOffset": 108310
+                    "endOffset": 108386
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8387,11 +8425,11 @@
             },
             {
                 "to": {
-                    "startLine": 1400,
+                    "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 108315,
+                    "startOffset": 108391,
                     "endColumn": 99,
-                    "endOffset": 108410
+                    "endOffset": 108486
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8406,11 +8444,11 @@
             },
             {
                 "to": {
-                    "startLine": 1401,
+                    "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 108415,
+                    "startOffset": 108491,
                     "endColumn": 89,
-                    "endOffset": 108500
+                    "endOffset": 108576
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8425,11 +8463,11 @@
             },
             {
                 "to": {
-                    "startLine": 1402,
+                    "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 108505,
+                    "startOffset": 108581,
                     "endColumn": 109,
-                    "endOffset": 108610
+                    "endOffset": 108686
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8444,11 +8482,11 @@
             },
             {
                 "to": {
-                    "startLine": 1403,
+                    "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 108615,
+                    "startOffset": 108691,
                     "endColumn": 91,
-                    "endOffset": 108702
+                    "endOffset": 108778
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8463,12 +8501,12 @@
             },
             {
                 "to": {
-                    "startLine": 1404,
+                    "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 108707,
-                    "endLine": 1405,
+                    "startOffset": 108783,
+                    "endLine": 1407,
                     "endColumn": 12,
-                    "endOffset": 108802
+                    "endOffset": 108878
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8484,12 +8522,12 @@
             },
             {
                 "to": {
-                    "startLine": 1406,
+                    "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 108807,
-                    "endLine": 1407,
+                    "startOffset": 108883,
+                    "endLine": 1409,
                     "endColumn": 12,
-                    "endOffset": 108914
+                    "endOffset": 108990
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8505,12 +8543,12 @@
             },
             {
                 "to": {
-                    "startLine": 1408,
+                    "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 108919,
-                    "endLine": 1409,
+                    "startOffset": 108995,
+                    "endLine": 1411,
                     "endColumn": 12,
-                    "endOffset": 109028
+                    "endOffset": 109104
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8526,12 +8564,12 @@
             },
             {
                 "to": {
-                    "startLine": 1410,
+                    "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 109033,
-                    "endLine": 1411,
+                    "startOffset": 109109,
+                    "endLine": 1413,
                     "endColumn": 12,
-                    "endOffset": 109144
+                    "endOffset": 109220
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8547,12 +8585,12 @@
             },
             {
                 "to": {
-                    "startLine": 1412,
+                    "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 109149,
-                    "endLine": 1413,
+                    "startOffset": 109225,
+                    "endLine": 1415,
                     "endColumn": 12,
-                    "endOffset": 109260
+                    "endOffset": 109336
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8568,11 +8606,11 @@
             },
             {
                 "to": {
-                    "startLine": 1414,
+                    "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 109265,
+                    "startOffset": 109341,
                     "endColumn": 93,
-                    "endOffset": 109354
+                    "endOffset": 109430
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8587,11 +8625,11 @@
             },
             {
                 "to": {
-                    "startLine": 1415,
+                    "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 109359,
+                    "startOffset": 109435,
                     "endColumn": 113,
-                    "endOffset": 109468
+                    "endOffset": 109544
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8606,11 +8644,11 @@
             },
             {
                 "to": {
-                    "startLine": 1416,
+                    "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 109473,
+                    "startOffset": 109549,
                     "endColumn": 117,
-                    "endOffset": 109586
+                    "endOffset": 109662
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8625,12 +8663,12 @@
             },
             {
                 "to": {
-                    "startLine": 1417,
+                    "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 109591,
-                    "endLine": 1418,
+                    "startOffset": 109667,
+                    "endLine": 1420,
                     "endColumn": 12,
-                    "endOffset": 109688
+                    "endOffset": 109764
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8646,12 +8684,12 @@
             },
             {
                 "to": {
-                    "startLine": 1419,
+                    "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 109693,
-                    "endLine": 1420,
+                    "startOffset": 109769,
+                    "endLine": 1422,
                     "endColumn": 12,
-                    "endOffset": 109808
+                    "endOffset": 109884
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8667,12 +8705,12 @@
             },
             {
                 "to": {
-                    "startLine": 1421,
+                    "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 109813,
-                    "endLine": 1422,
+                    "startOffset": 109889,
+                    "endLine": 1424,
                     "endColumn": 12,
-                    "endOffset": 109930
+                    "endOffset": 110006
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8688,11 +8726,11 @@
             },
             {
                 "to": {
-                    "startLine": 1423,
+                    "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 109935,
+                    "startOffset": 110011,
                     "endColumn": 81,
-                    "endOffset": 110012
+                    "endOffset": 110088
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8707,11 +8745,11 @@
             },
             {
                 "to": {
-                    "startLine": 1424,
+                    "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 110017,
+                    "startOffset": 110093,
                     "endColumn": 103,
-                    "endOffset": 110116
+                    "endOffset": 110192
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8726,11 +8764,11 @@
             },
             {
                 "to": {
-                    "startLine": 1425,
+                    "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 110121,
+                    "startOffset": 110197,
                     "endColumn": 119,
-                    "endOffset": 110236
+                    "endOffset": 110312
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8745,11 +8783,11 @@
             },
             {
                 "to": {
-                    "startLine": 1426,
+                    "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 110241,
+                    "startOffset": 110317,
                     "endColumn": 125,
-                    "endOffset": 110362
+                    "endOffset": 110438
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8764,11 +8802,11 @@
             },
             {
                 "to": {
-                    "startLine": 1427,
+                    "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 110367,
+                    "startOffset": 110443,
                     "endColumn": 93,
-                    "endOffset": 110456
+                    "endOffset": 110532
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8783,11 +8821,11 @@
             },
             {
                 "to": {
-                    "startLine": 1428,
+                    "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 110461,
+                    "startOffset": 110537,
                     "endColumn": 87,
-                    "endOffset": 110544
+                    "endOffset": 110620
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8802,11 +8840,11 @@
             },
             {
                 "to": {
-                    "startLine": 1429,
+                    "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 110549,
+                    "startOffset": 110625,
                     "endColumn": 111,
-                    "endOffset": 110656
+                    "endOffset": 110732
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8821,11 +8859,11 @@
             },
             {
                 "to": {
-                    "startLine": 1430,
+                    "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 110661,
+                    "startOffset": 110737,
                     "endColumn": 115,
-                    "endOffset": 110772
+                    "endOffset": 110848
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8840,11 +8878,11 @@
             },
             {
                 "to": {
-                    "startLine": 1431,
+                    "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 110777,
+                    "startOffset": 110853,
                     "endColumn": 121,
-                    "endOffset": 110894
+                    "endOffset": 110970
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8859,11 +8897,11 @@
             },
             {
                 "to": {
-                    "startLine": 1432,
+                    "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 110899,
+                    "startOffset": 110975,
                     "endColumn": 111,
-                    "endOffset": 111006
+                    "endOffset": 111082
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8878,12 +8916,12 @@
             },
             {
                 "to": {
-                    "startLine": 1433,
+                    "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 111011,
-                    "endLine": 1435,
+                    "startOffset": 111087,
+                    "endLine": 1437,
                     "endColumn": 12,
-                    "endOffset": 111181
+                    "endOffset": 111257
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8899,11 +8937,11 @@
             },
             {
                 "to": {
-                    "startLine": 1436,
+                    "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 111186,
+                    "startOffset": 111262,
                     "endColumn": 115,
-                    "endOffset": 111297
+                    "endOffset": 111373
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8918,11 +8956,11 @@
             },
             {
                 "to": {
-                    "startLine": 1437,
+                    "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 111302,
+                    "startOffset": 111378,
                     "endColumn": 85,
-                    "endOffset": 111383
+                    "endOffset": 111459
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8937,12 +8975,12 @@
             },
             {
                 "to": {
-                    "startLine": 1438,
+                    "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 111388,
-                    "endLine": 1439,
+                    "startOffset": 111464,
+                    "endLine": 1441,
                     "endColumn": 12,
-                    "endOffset": 111495
+                    "endOffset": 111571
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8958,12 +8996,12 @@
             },
             {
                 "to": {
-                    "startLine": 1440,
+                    "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 111500,
-                    "endLine": 1441,
+                    "startOffset": 111576,
+                    "endLine": 1443,
                     "endColumn": 12,
-                    "endOffset": 111619
+                    "endOffset": 111695
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8979,11 +9017,11 @@
             },
             {
                 "to": {
-                    "startLine": 1442,
+                    "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 111624,
+                    "startOffset": 111700,
                     "endColumn": 66,
-                    "endOffset": 111686
+                    "endOffset": 111762
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -8998,12 +9036,12 @@
             },
             {
                 "to": {
-                    "startLine": 1443,
+                    "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 111691,
-                    "endLine": 1444,
+                    "startOffset": 111767,
+                    "endLine": 1446,
                     "endColumn": 12,
-                    "endOffset": 111812
+                    "endOffset": 111888
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9019,11 +9057,11 @@
             },
             {
                 "to": {
-                    "startLine": 1445,
+                    "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 111817,
+                    "startOffset": 111893,
                     "endColumn": 67,
-                    "endOffset": 111880
+                    "endOffset": 111956
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9038,12 +9076,12 @@
             },
             {
                 "to": {
-                    "startLine": 1446,
+                    "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 111885,
-                    "endLine": 1447,
+                    "startOffset": 111961,
+                    "endLine": 1449,
                     "endColumn": 12,
-                    "endOffset": 112008
+                    "endOffset": 112084
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9059,12 +9097,12 @@
             },
             {
                 "to": {
-                    "startLine": 1448,
+                    "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 112013,
-                    "endLine": 1449,
+                    "startOffset": 112089,
+                    "endLine": 1451,
                     "endColumn": 12,
-                    "endOffset": 112152
+                    "endOffset": 112228
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9080,12 +9118,12 @@
             },
             {
                 "to": {
-                    "startLine": 1450,
+                    "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 112157,
-                    "endLine": 1451,
+                    "startOffset": 112233,
+                    "endLine": 1453,
                     "endColumn": 12,
-                    "endOffset": 112280
+                    "endOffset": 112356
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9101,11 +9139,11 @@
             },
             {
                 "to": {
-                    "startLine": 1452,
+                    "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 112285,
+                    "startOffset": 112361,
                     "endColumn": 68,
-                    "endOffset": 112349
+                    "endOffset": 112425
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9120,11 +9158,11 @@
             },
             {
                 "to": {
-                    "startLine": 1453,
+                    "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 112354,
+                    "startOffset": 112430,
                     "endColumn": 94,
-                    "endOffset": 112444
+                    "endOffset": 112520
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9139,11 +9177,11 @@
             },
             {
                 "to": {
-                    "startLine": 1454,
+                    "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 112449,
+                    "startOffset": 112525,
                     "endColumn": 114,
-                    "endOffset": 112559
+                    "endOffset": 112635
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9158,11 +9196,11 @@
             },
             {
                 "to": {
-                    "startLine": 1455,
+                    "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 112564,
+                    "startOffset": 112640,
                     "endColumn": 112,
-                    "endOffset": 112672
+                    "endOffset": 112748
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9177,11 +9215,11 @@
             },
             {
                 "to": {
-                    "startLine": 1456,
+                    "startLine": 1458,
                     "startColumn": 4,
-                    "startOffset": 112677,
+                    "startOffset": 112753,
                     "endColumn": 98,
-                    "endOffset": 112771
+                    "endOffset": 112847
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9196,11 +9234,11 @@
             },
             {
                 "to": {
-                    "startLine": 1457,
+                    "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 112776,
+                    "startOffset": 112852,
                     "endColumn": 108,
-                    "endOffset": 112880
+                    "endOffset": 112956
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9215,11 +9253,11 @@
             },
             {
                 "to": {
-                    "startLine": 1458,
+                    "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 112885,
+                    "startOffset": 112961,
                     "endColumn": 110,
-                    "endOffset": 112991
+                    "endOffset": 113067
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9234,11 +9272,11 @@
             },
             {
                 "to": {
-                    "startLine": 1459,
+                    "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 112996,
+                    "startOffset": 113072,
                     "endColumn": 110,
-                    "endOffset": 113102
+                    "endOffset": 113178
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9253,11 +9291,11 @@
             },
             {
                 "to": {
-                    "startLine": 1460,
+                    "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 113107,
+                    "startOffset": 113183,
                     "endColumn": 100,
-                    "endOffset": 113203
+                    "endOffset": 113279
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9272,11 +9310,11 @@
             },
             {
                 "to": {
-                    "startLine": 1461,
+                    "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 113208,
+                    "startOffset": 113284,
                     "endColumn": 104,
-                    "endOffset": 113308
+                    "endOffset": 113384
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9291,12 +9329,12 @@
             },
             {
                 "to": {
-                    "startLine": 1462,
+                    "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 113313,
-                    "endLine": 1463,
+                    "startOffset": 113389,
+                    "endLine": 1465,
                     "endColumn": 12,
-                    "endOffset": 113420
+                    "endOffset": 113496
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9312,12 +9350,12 @@
             },
             {
                 "to": {
-                    "startLine": 1464,
+                    "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 113425,
-                    "endLine": 1465,
+                    "startOffset": 113501,
+                    "endLine": 1467,
                     "endColumn": 12,
-                    "endOffset": 113550
+                    "endOffset": 113626
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9333,11 +9371,11 @@
             },
             {
                 "to": {
-                    "startLine": 1466,
+                    "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 113555,
+                    "startOffset": 113631,
                     "endColumn": 90,
-                    "endOffset": 113641
+                    "endOffset": 113717
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9352,11 +9390,11 @@
             },
             {
                 "to": {
-                    "startLine": 1467,
+                    "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 113646,
+                    "startOffset": 113722,
                     "endColumn": 122,
-                    "endOffset": 113764
+                    "endOffset": 113840
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9371,12 +9409,12 @@
             },
             {
                 "to": {
-                    "startLine": 1468,
+                    "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 113769,
-                    "endLine": 1469,
+                    "startOffset": 113845,
+                    "endLine": 1471,
                     "endColumn": 12,
-                    "endOffset": 113876
+                    "endOffset": 113952
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9392,11 +9430,11 @@
             },
             {
                 "to": {
-                    "startLine": 1470,
+                    "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 113881,
+                    "startOffset": 113957,
                     "endColumn": 85,
-                    "endOffset": 113962
+                    "endOffset": 114038
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9411,11 +9449,11 @@
             },
             {
                 "to": {
-                    "startLine": 1471,
+                    "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 113967,
+                    "startOffset": 114043,
                     "endColumn": 103,
-                    "endOffset": 114066
+                    "endOffset": 114142
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9430,12 +9468,12 @@
             },
             {
                 "to": {
-                    "startLine": 1472,
+                    "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 114071,
-                    "endLine": 1473,
+                    "startOffset": 114147,
+                    "endLine": 1475,
                     "endColumn": 12,
-                    "endOffset": 114174
+                    "endOffset": 114250
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9451,12 +9489,12 @@
             },
             {
                 "to": {
-                    "startLine": 1474,
+                    "startLine": 1476,
                     "startColumn": 4,
-                    "startOffset": 114179,
-                    "endLine": 1475,
+                    "startOffset": 114255,
+                    "endLine": 1477,
                     "endColumn": 12,
-                    "endOffset": 114274
+                    "endOffset": 114350
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9472,12 +9510,12 @@
             },
             {
                 "to": {
-                    "startLine": 1476,
+                    "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 114279,
-                    "endLine": 1477,
+                    "startOffset": 114355,
+                    "endLine": 1479,
                     "endColumn": 12,
-                    "endOffset": 114392
+                    "endOffset": 114468
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9493,12 +9531,12 @@
             },
             {
                 "to": {
-                    "startLine": 1478,
+                    "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 114397,
-                    "endLine": 1479,
+                    "startOffset": 114473,
+                    "endLine": 1481,
                     "endColumn": 12,
-                    "endOffset": 114496
+                    "endOffset": 114572
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9514,12 +9552,12 @@
             },
             {
                 "to": {
-                    "startLine": 1480,
+                    "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 114501,
-                    "endLine": 1481,
+                    "startOffset": 114577,
+                    "endLine": 1483,
                     "endColumn": 12,
-                    "endOffset": 114600
+                    "endOffset": 114676
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9535,12 +9573,12 @@
             },
             {
                 "to": {
-                    "startLine": 1482,
+                    "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 114605,
-                    "endLine": 1483,
+                    "startOffset": 114681,
+                    "endLine": 1485,
                     "endColumn": 12,
-                    "endOffset": 114726
+                    "endOffset": 114802
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9556,11 +9594,11 @@
             },
             {
                 "to": {
-                    "startLine": 1484,
+                    "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 114731,
+                    "startOffset": 114807,
                     "endColumn": 87,
-                    "endOffset": 114814
+                    "endOffset": 114890
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9575,11 +9613,11 @@
             },
             {
                 "to": {
-                    "startLine": 1485,
+                    "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 114819,
+                    "startOffset": 114895,
                     "endColumn": 89,
-                    "endOffset": 114904
+                    "endOffset": 114980
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9594,11 +9632,11 @@
             },
             {
                 "to": {
-                    "startLine": 1486,
+                    "startLine": 1488,
                     "startColumn": 4,
-                    "startOffset": 114909,
+                    "startOffset": 114985,
                     "endColumn": 109,
-                    "endOffset": 115014
+                    "endOffset": 115090
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9613,11 +9651,11 @@
             },
             {
                 "to": {
-                    "startLine": 1487,
+                    "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 115019,
+                    "startOffset": 115095,
                     "endColumn": 83,
-                    "endOffset": 115098
+                    "endOffset": 115174
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9632,11 +9670,11 @@
             },
             {
                 "to": {
-                    "startLine": 1488,
+                    "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 115103,
+                    "startOffset": 115179,
                     "endColumn": 53,
-                    "endOffset": 115152
+                    "endOffset": 115228
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9651,11 +9689,11 @@
             },
             {
                 "to": {
-                    "startLine": 1489,
+                    "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 115157,
+                    "startOffset": 115233,
                     "endColumn": 121,
-                    "endOffset": 115274
+                    "endOffset": 115350
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9670,11 +9708,11 @@
             },
             {
                 "to": {
-                    "startLine": 1490,
+                    "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 115279,
+                    "startOffset": 115355,
                     "endColumn": 105,
-                    "endOffset": 115380
+                    "endOffset": 115456
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9689,11 +9727,11 @@
             },
             {
                 "to": {
-                    "startLine": 1491,
+                    "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 115385,
+                    "startOffset": 115461,
                     "endColumn": 109,
-                    "endOffset": 115490
+                    "endOffset": 115566
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9708,11 +9746,11 @@
             },
             {
                 "to": {
-                    "startLine": 1492,
+                    "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 115495,
+                    "startOffset": 115571,
                     "endColumn": 83,
-                    "endOffset": 115574
+                    "endOffset": 115650
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
@@ -9727,11 +9765,11 @@
             },
             {
                 "to": {
-                    "startLine": 1493,
+                    "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 115579,
+                    "startOffset": 115655,
                     "endColumn": 125,
-                    "endOffset": 115700
+                    "endOffset": 115776
                 },
                 "from": {
                     "file": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml",
