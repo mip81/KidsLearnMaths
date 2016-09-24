@@ -53,7 +53,8 @@
                 android:id="@+id/tvAccuracy"
                 android:textSize="22sp"
                 android:textColor="#f3ec24"
-                android:textStyle="normal|bold" />
+                android:textStyle="normal|bold"
+                android:width="70dp" />
         </TableRow>
 
         <TableRow
@@ -195,7 +196,7 @@
         android:layout_marginLeft="10dp"
         android:weightSum="1"
         android:gravity="center_horizontal"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginTop="15dp">
 
 
@@ -271,23 +272,28 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
                 android:text="1"
                 android:id="@+id/btn1"
-                android:textSize="30dp"
                 android:onClick="btnClick"
-                android:background="@drawable/btn_answer_1" />
+                android:background="@drawable/btn_answer_1"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="normal|bold"
+                android:textSize="50sp" />
 
             <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
                 android:text="2"
                 android:id="@+id/btn2"
-                android:textSize="30dp"
                 android:onClick="btnClick"
-                android:background="@drawable/btn_answer_2" />
-
+                android:background="@drawable/btn_answer_2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:textStyle="normal|bold"
+                android:textSize="50sp" />
 
 
         </TableRow>
@@ -299,22 +305,26 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
                 android:text="4"
                 android:id="@+id/btn3"
-                android:textSize="30dp"
                 android:onClick="btnClick"
-                android:background="@drawable/btn_answer_3" />
+                android:background="@drawable/btn_answer_3"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="normal|bold"
+                android:textSize="50sp" />
 
             <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
                 android:text="5"
                 android:id="@+id/btn4"
-                android:textSize="30dp"
                 android:onClick="btnClick"
-                android:background="@drawable/btn_answer_4" />
+                android:background="@drawable/btn_answer_4"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="normal|bold"
+                android:textSize="50sp" />
 
         </TableRow>
 
@@ -335,7 +345,8 @@
                 android:background="@drawable/btn_back"
                 android:layout_gravity="top"
                 android:layout_marginTop="20dp"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
         </TableRow>
 
     </TableLayout>

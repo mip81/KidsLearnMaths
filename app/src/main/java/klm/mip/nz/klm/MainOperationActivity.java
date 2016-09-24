@@ -2,11 +2,13 @@ package klm.mip.nz.klm;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -16,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.Random;
 
@@ -24,6 +27,7 @@ import java.util.Random;
  */
 public class MainOperationActivity extends AppCompatActivity {
 
+    private DecimalFormat df = new DecimalFormat("0.#");
     private Handler handler;
     private int timer = 20;
     private int lastY = 0;
@@ -52,6 +56,9 @@ public class MainOperationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_operation);
 
+        //define custom font
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Smoothie Shoppe.ttf");
+
         // get operation from the main activity
         sign = this.getIntent().getExtras().getString("sign");
 
@@ -71,10 +78,15 @@ public class MainOperationActivity extends AppCompatActivity {
 
 
         btn1 = (Button) findViewById(R.id.btn1);
+            btn1.setTypeface(tf);
         btn2 = (Button) findViewById(R.id.btn2);
+            btn2.setTypeface(tf);
         btn3 = (Button) findViewById(R.id.btn3);
+            btn3.setTypeface(tf);
         btn4 = (Button) findViewById(R.id.btn4);
+            btn4.setTypeface(tf);
         btnBack = (Button) findViewById(R.id.btnBack);
+            btnBack.setTypeface(tf);
         // END DEFINING VARS
 
 
@@ -99,6 +111,9 @@ public class MainOperationActivity extends AppCompatActivity {
         //HIDE ACTION BAR
         getSupportActionBar().hide();
 
+        //count thread
+        countThread = new CountDown();
+
         // LOAD DATA FOR THE GAME
         loadData();
 
@@ -110,16 +125,12 @@ public class MainOperationActivity extends AppCompatActivity {
     // LOAD DATA FOR NEW GAME
     private void loadData() {
 
-        countThread =  new CountDown();
-        countThread.start();
-
-
         tvScore.setText("" + score);
         tvChances.setText("" + chances);
         tvLevel.setText("" + level);
         tvScore.setText("" + score);
         tvQuestion.setText("" + questionNo);
-        tvAccuracy.setText( String.valueOf((score / questionNo) * 100) );
+        tvAccuracy.setText( (questionNo == 1) ? "0%" : df.format( ( (double)score / (double)(questionNo-1) ) * 100d)+"%"  );
 
 
         timer = (level>15) ?  5 :  20 - level;
@@ -166,7 +177,7 @@ public class MainOperationActivity extends AppCompatActivity {
         // AFTER 5 Questions lebel up
         if (questionNo % 5 == 0) level++;
 
-        // Set 
+        // Set
         tvX.setText("" + no1);
         tvY.setText("" + no2);
 
@@ -223,6 +234,10 @@ public class MainOperationActivity extends AppCompatActivity {
             btn4.setText(correctAnswer); corrBtn = btn3;
         }
 
+
+        // Start counting
+
+        new CountDown().start();
     }
 
 
@@ -241,8 +256,9 @@ public class MainOperationActivity extends AppCompatActivity {
         final Button savedCorrBtn = corrBtn; // save the correct button to change the correct answer
             // stop the timer
         isQuit = true;
-            // null the counter allow to do GC
-        countThread = null;
+
+            // make btns onclickable
+        disableBtn();
 
          // get answer from user
         receivedAnswer = ((Button) view).getText().toString();
@@ -260,9 +276,11 @@ public class MainOperationActivity extends AppCompatActivity {
         } else {
             // SHOW MSG AND CORRECT ANSWER
             Toast toast = Toast.makeText(this, "\tWRONG ANSWER! \n\n CORRECT ANSWER IS "+correctAnswer, Toast.LENGTH_SHORT);
+            LinearLayout ll = (LinearLayout) toast.getView();
+            //ll.setLayoutParams(new Toolbar.LayoutParams(this));
             TextView tvToast = ((TextView)((LinearLayout)toast.getView()).getChildAt(0));
-                    tvToast.setGravity(Gravity.CENTER_HORIZONTAL);
-                    tvToast.setPadding(0,50,0,0);
+
+                tvToast.setGravity(Gravity.CENTER_HORIZONTAL);
 
             toast.setGravity(Gravity.TOP, 0, 0);
             toast.show();
@@ -280,13 +298,14 @@ public class MainOperationActivity extends AppCompatActivity {
 //            }
 
             // Make buttons unclickable
-            disableBtn();
 
             // Reduce chances
             chances--;
         }
 
         if (chances == -1) { // EXIT
+            isQuit = true; // stop thread
+
             Toast toast = Toast.makeText(getApplicationContext(), "GAME OVER! \n YOUR LEVEL IS " + level+" \n DON'T GIVE UP!", Toast.LENGTH_LONG);
             ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
                     .setGravity(Gravity.CENTER_HORIZONTAL);
@@ -313,13 +332,19 @@ public class MainOperationActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * RETURN TO MAIN ACTIVITY
+     * @param view
+     */
     public void goBack(View view) {
         isQuit = true;
         Intent back = new Intent(this, MainActivity.class);
         startActivity(back);
     }
 
-
+    /**
+     * Method makes BTN unclickable
+     */
     private void disableBtn(){
         btn1.setClickable(false);
         btn2.setClickable(false);
@@ -328,6 +353,10 @@ public class MainOperationActivity extends AppCompatActivity {
 
     }
 
+
+    /**
+     * Method makes BTN clickable
+     */
     private void enableBtn(){
         btn1.setClickable(true);
         btn2.setClickable(true);
@@ -348,15 +377,11 @@ public class MainOperationActivity extends AppCompatActivity {
             while(!isQuit){
                // Log.d("Timer time : ", String.valueOf(timer));
 
-
-                try {
-                    Thread.sleep(1000);
-                }catch(Exception e){
-                    Toast.makeText(getApplicationContext(),"Error : "+e.getMessage(), Toast.LENGTH_LONG).show();
-                }
+                // Better way to sleep
+                SystemClock.sleep(1000);
 
                 timer--;
-
+                if(timer == 0) isQuit = true;
                 //final int sec = timer;
                 handler.post(new Runnable() {
                     @Override
@@ -381,19 +406,20 @@ public class MainOperationActivity extends AppCompatActivity {
                             chances--;
                             tvChances.setText( String.valueOf(chances) );
                             timer = (level>15) ?  5 :  20 - level;
-                            loadData();
                             tvQuestion.setText(String.valueOf(++questionNo));
+
+                            loadData();
                         }
 
                     }
                 });
 
-                if( timer == 0 && chances == 0 ) {
-;
-                    // Log.d("DEBUG : ","Exit from countdown");
-
-                    break;
-                }
+//                if( timer == 0 && chances == 0 ) {
+//;
+//                    // Log.d("DEBUG : ","Exit from countdown");
+//
+//                    break;
+//                }
             }
 
         }

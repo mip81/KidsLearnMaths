@@ -4,7 +4,7 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="220099201463829"
+    timestamp="272244654532682"
     token="8017437982112300917"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -26,7 +26,7 @@
         type="MAIN" />
 
     <build
-        timestamp="220099201463829"
+        timestamp="272244654532682"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
