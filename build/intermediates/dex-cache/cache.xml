@@ -2,76 +2,76 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/mikhailpastushkov/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_06b338fbdad6a8a57b616ae8eeb60e8a6e9624ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_574dd717f23c5c919baae5ed45cd7fc8afc26968.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="22de658eba03738b8d2cb53ff72028448b0db716">
-        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/instant-run_74c98ae61df3a07e089a5c5cd499145348e9ab7c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_436ebdc20a3d945bdb43c29f37b1c93095c40169.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="6193c99913fd09306cb5f93cf0edbc372f5ee81e">
-        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_d98ed397c9c6ee1f6c131e348f31295656b6bdfd.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_8d3d41b6d50803a74af1cc6ad37cb7d29c00fd7b.jar" />
+        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_8d3d41b6d50803a74af1cc6ad37cb7d29c00fd7b/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_5f4a8fd7558491147337c0c64fa4c890b6e078f1.jar" />
+        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_5f4a8fd7558491147337c0c64fa4c890b6e078f1/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_ca372cd6c65bcc592926585b07211062758dc4a0.jar" />
+        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_ca372cd6c65bcc592926585b07211062758dc4a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="678141958e17cfdb05ac4a563803cd2c4443434d">
+        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d98ed397c9c6ee1f6c131e348f31295656b6bdfd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_436ebdc20a3d945bdb43c29f37b1c93095c40169/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mikhailpastushkov/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_06b338fbdad6a8a57b616ae8eeb60e8a6e9624ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_574dd717f23c5c919baae5ed45cd7fc8afc26968/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="18f1ef6051859575332b05ad3136c9441675f6d9">
+        <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_74c98ae61df3a07e089a5c5cd499145348e9ab7c/classes.dex" />
     </item>
 
 </items>

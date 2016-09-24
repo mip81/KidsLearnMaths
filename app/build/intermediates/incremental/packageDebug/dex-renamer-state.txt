@@ -1,4 +1,7 @@
-#Sat Sep 24 14:57:59 NZST 2016
-base.0=/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Sat Sep 24 18:27:34 NZST 2016
+base.0=/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_74c98ae61df3a07e089a5c5cd499145348e9ab7c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d98ed397c9c6ee1f6c131e348f31295656b6bdfd/classes.dex
+base.1=/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d98ed397c9c6ee1f6c131e348f31295656b6bdfd
+file.0=/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_74c98ae61df3a07e089a5c5cd499145348e9ab7c/classes.dex

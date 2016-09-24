@@ -28,13 +28,13 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
         android:layout_height="wrap_content">
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="10dp">
 
             <TextView
@@ -51,10 +51,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvAccuracy"
-                android:textSize="22sp"
                 android:textColor="#f3ec24"
                 android:textStyle="normal|bold"
-                android:width="70dp" />
+                android:width="70dp"
+                android:textSize="22sp" />
         </TableRow>
 
         <TableRow
@@ -81,9 +81,9 @@
                 android:textColor="#f3ec24"
                 android:textStyle="bold" />
             <View
-                android:layout_width="50dp"
                 android:layout_height="5dp"
-                android:layout_gravity="bottom|left">
+                android:layout_gravity="bottom|left"
+                android:layout_width="35dp">
 
             </View>
             <TextView
@@ -129,9 +129,9 @@
                 android:textStyle="bold" />
 
             <View
-                android:layout_width="50dp"
                 android:layout_height="5dp"
-                android:layout_gravity="bottom">
+                android:layout_gravity="bottom"
+                android:layout_width="35dp">
 
             </View>
 
@@ -158,7 +158,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:weightSum="1">
 
@@ -169,12 +169,12 @@
             android:text="Chances:"
             android:id="@+id/tvChancesLbl"
             android:textStyle="bold"
-            android:textSize="30dp"
             android:textIsSelectable="false"
             android:textColor="#ff6f65"
             android:textColorHighlight="#ff0000"
             android:gravity="fill_horizontal|center_vertical"
-            android:layout_marginRight="5dp" />
+            android:layout_marginRight="5dp"
+            android:textSize="40dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -182,10 +182,10 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="0"
             android:id="@+id/tvChances"
-            android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="#f3ec24"
-            android:gravity="fill_horizontal|center_vertical" />
+            android:gravity="fill_horizontal|center_vertical"
+            android:textSize="40dp" />
 
     </LinearLayout>
 
@@ -196,8 +196,7 @@
         android:layout_marginLeft="10dp"
         android:weightSum="1"
         android:gravity="center_horizontal"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="15dp">
+        android:layout_marginBottom="10dp">
 
 
         <TextView
@@ -278,7 +277,7 @@
                 android:background="@drawable/btn_answer_1"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_marginBottom="10dp"
                 android:textStyle="normal|bold"
                 android:textSize="50sp" />
@@ -288,7 +287,7 @@
                 android:id="@+id/btn2"
                 android:onClick="btnClick"
                 android:background="@drawable/btn_answer_2"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginBottom="10dp"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
@@ -311,7 +310,7 @@
                 android:background="@drawable/btn_answer_3"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:textStyle="normal|bold"
                 android:textSize="50sp" />
 
@@ -322,7 +321,7 @@
                 android:background="@drawable/btn_answer_4"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:textStyle="normal|bold"
                 android:textSize="50sp" />
 

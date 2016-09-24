@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -12,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -26,18 +29,36 @@ import java.util.Random;
  * Created by mikhailpastushkov on 9/20/16.
  */
 public class MainOperationActivity extends AppCompatActivity {
-
+    private String[] colors = {"#ff99cc",
+    "#ffcc99",
+    "#ffff66",
+    "#ccff66",
+    "#99ff66",
+    "#99ff66",
+    "#00ff99",
+    "#3399ff",
+    "#9999ff",
+    "#00cc99",
+    "#ff00ff",
+    "#ff9933",
+    "#ccffcc",
+    "#66ffff",
+    "#9999ff",
+    "#ffffcc",
+    "#ccffcc",
+    "#66ccff"};
     private DecimalFormat df = new DecimalFormat("0.#");
     private Handler handler;
-    private int timer = 20;
+    private int timer = 22;
     private int lastY = 0;
 
     private TextView tvScore, tvLevel, tvQuestion, tvChances;
-    private TextView tvTime, tvName, tvAnswer, tvX, tvY, tvSign, tvAccuracy;
+    private TextView tvTime, tvName, tvAnswer, tvX, tvY, tvEq, tvSign, tvAccuracy;
     private Button btn1, btn2, btn3, btn4, btnBack;
     private String receivedAnswer = "";
     private String correctAnswer = "";
     private Button corrBtn;
+    private int distraction = 10; // color distraction
 
 
     private int score = 0;
@@ -54,10 +75,11 @@ public class MainOperationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main_operation);
 
         //define custom font
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Smoothie Shoppe.ttf");
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Rabbit On The Moon.ttf");
 
         // get operation from the main activity
         sign = this.getIntent().getExtras().getString("sign");
@@ -70,11 +92,22 @@ public class MainOperationActivity extends AppCompatActivity {
         tvChances = (TextView) findViewById(R.id.tvChances);
         tvTime = (TextView) findViewById(R.id.tvTime);
         tvAccuracy = (TextView) findViewById(R.id.tvAccuracy);
+        ((TextView)findViewById(R.id.tvChancesLbl)).setTypeface(tf);
+        tvChances.setTypeface(tf);
 
         tvX = (TextView) findViewById(R.id.tvX);
+            tvX.setTypeface(tf);
         tvY = (TextView) findViewById(R.id.tvY);
+            tvY.setTypeface(tf);
         tvSign = (TextView) findViewById(R.id.tvSign);
+            tvSign.setTypeface(tf);
         tvSign.setText(sign);
+
+        tvAnswer = (TextView) findViewById(R.id.tvAnswer);
+            tvAnswer.setTypeface(tf);
+        tvEq = (TextView) findViewById(R.id.tvEq);
+            tvEq.setTypeface(tf);
+
 
 
         btn1 = (Button) findViewById(R.id.btn1);
@@ -111,6 +144,8 @@ public class MainOperationActivity extends AppCompatActivity {
         //HIDE ACTION BAR
         getSupportActionBar().hide();
 
+
+
         //count thread
         countThread = new CountDown();
 
@@ -125,6 +160,8 @@ public class MainOperationActivity extends AppCompatActivity {
     // LOAD DATA FOR NEW GAME
     private void loadData() {
 
+
+
         tvScore.setText("" + score);
         tvChances.setText("" + chances);
         tvLevel.setText("" + level);
@@ -133,7 +170,7 @@ public class MainOperationActivity extends AppCompatActivity {
         tvAccuracy.setText( (questionNo == 1) ? "0%" : df.format( ( (double)score / (double)(questionNo-1) ) * 100d)+"%"  );
 
 
-        timer = (level>15) ?  5 :  20 - level;
+        timer = (level>15) ?  5 :  22 - level;
 
         Random random = new Random();
 
@@ -143,16 +180,17 @@ public class MainOperationActivity extends AppCompatActivity {
         // Condition for DIVISION
         if (sign.equals("/")) {
 
-            while ( !(((no1 % no2) == 0 ) && (no1 > no2) && (no1 != no2) && (no2 != 1) && (no2 != lastY) )) {
+            while ( !(  (no2 != 0)  && ((no1 % no2) == 0 ) && (no1 > no2)  && (no2 != 1) && (no2 != lastY) )) {
                 max = 10 + level;
-
-                no1 = random.nextInt(10) + level;
-                no2 = random.nextInt(10)+ level;
+                no1 = random.nextInt( (10 + level) );
+                no2 = random.nextInt( (10 + level) );
+             //       Log.d("DEBUG ", " FINDING x and y for division ");
             }
                 lastY = no2;
                    Log.d("DEBUG ","no1 : "+ String.valueOf(no1)+" no2 : "+String.valueOf(no2));
-                   Log.d("DEBUG no1 % no2 : ", String.valueOf(no1 % no2));
+                 //  Log.d("DEBUG no1 % no2 : ", String.valueOf(no1 % no2));
         }
+
 
         // CONDITION FOR MINUS
         if (sign.equals("-")) {
@@ -175,7 +213,10 @@ public class MainOperationActivity extends AppCompatActivity {
         }
 
         // AFTER 5 Questions lebel up
-        if (questionNo % 5 == 0) level++;
+        if (questionNo % 5 == 0){
+            level++;
+            //distraction +=level*10;
+        }
 
         // Set
         tvX.setText("" + no1);
@@ -196,7 +237,12 @@ public class MainOperationActivity extends AppCompatActivity {
             correctAnswer = String.valueOf(no1 - no2);
 
         if (sign.equals("/")){
-            correctAnswer = String.valueOf(no1 / no2);
+            try{
+                correctAnswer = String.valueOf(no1 / no2);
+
+            }catch (ArithmeticException e){
+                Log.d("DEBUG : ",  "Division by 0 n1="+no1+" n2="+no2);
+            }
         }
 
         if (sign.equals("*"))
@@ -235,9 +281,18 @@ public class MainOperationActivity extends AppCompatActivity {
         }
 
 
-        // Start counting
+        // Wait until Thread die
+        try {
+            countThread.join();
+        }catch (Exception e){}
 
-        new CountDown().start();
+        // Start distraction
+        new SetColors().execute();
+
+
+        // Start counting
+            countThread =  new CountDown();
+            countThread.start();
     }
 
 
@@ -250,15 +305,16 @@ public class MainOperationActivity extends AppCompatActivity {
      * @param view
      */
     public void btnClick(View view) {
-
-
-        final Drawable SAVEDBG = corrBtn.getBackground(); //save the BG of correct button
-        final Button savedCorrBtn = corrBtn; // save the correct button to change the correct answer
-            // stop the timer
-        isQuit = true;
-
             // make btns onclickable
         disableBtn();
+            stopCount();
+
+        Log.d("DEBUG CLICK BTN isQuit ", isQuit+"");
+            //SystemClock.sleep(100);
+        int delay = 0;
+        final Drawable SAVEDBG = corrBtn.getBackground(); //save the BG of correct button
+        final Button savedCorrBtn = corrBtn; // save the correct button to change the correct answer
+
 
          // get answer from user
         receivedAnswer = ((Button) view).getText().toString();
@@ -274,6 +330,11 @@ public class MainOperationActivity extends AppCompatActivity {
 
         // if answer is wrong show him or her the correct one
         } else {
+
+            // change delay time to show correct answer
+            delay = 1500;
+
+
             // SHOW MSG AND CORRECT ANSWER
             Toast toast = Toast.makeText(this, "\tWRONG ANSWER! \n\n CORRECT ANSWER IS "+correctAnswer, Toast.LENGTH_SHORT);
             LinearLayout ll = (LinearLayout) toast.getView();
@@ -287,24 +348,12 @@ public class MainOperationActivity extends AppCompatActivity {
 
             // DISPLAY CORRECT ANSWER BY CHANGING BG
             savedCorrBtn.setBackgroundResource(R.drawable.btn_corr_answer);
+            savedCorrBtn.setTextColor(Color.RED);
 
-//todo : to make text colors changing haotic
-//            Random r = new Random();
-//            int x = 0;
-//            while(x < 20){
-//                corrBtn.setTextColor(Color.rgb(r.nextInt(255), r.nextInt(255), r.nextInt(255)));
-//                SystemClock.sleep(100);
-//                x++;
-//            }
-
-            // Make buttons unclickable
-
-            // Reduce chances
             chances--;
         }
 
         if (chances == -1) { // EXIT
-            isQuit = true; // stop thread
 
             Toast toast = Toast.makeText(getApplicationContext(), "GAME OVER! \n YOUR LEVEL IS " + level+" \n DON'T GIVE UP!", Toast.LENGTH_LONG);
             ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
@@ -321,13 +370,16 @@ public class MainOperationActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
+                isQuit = true;
                 questionNo++;
                 enableBtn();
                 savedCorrBtn.setBackground(SAVEDBG);
+                savedCorrBtn.setTextColor(Color.BLACK);
+
                 loadData();
 
             }
-        }, 3000);
+        }, delay);
 
 
     }
@@ -338,9 +390,21 @@ public class MainOperationActivity extends AppCompatActivity {
      */
     public void goBack(View view) {
         isQuit = true;
+
+        try {
+            countThread.join();
+        }catch (Exception e){
+
+        }
+        countThread = null;
+
+        // Open Main Activity
         Intent back = new Intent(this, MainActivity.class);
         startActivity(back);
     }
+
+
+
 
     /**
      * Method makes BTN unclickable
@@ -364,7 +428,9 @@ public class MainOperationActivity extends AppCompatActivity {
         btn4.setClickable(true);
     }
 
-
+    private void stopCount(){
+        isQuit = true;
+    }
     // Class for counting the time
     class CountDown extends Thread{
 
@@ -375,10 +441,9 @@ public class MainOperationActivity extends AppCompatActivity {
         public void run(){
 
             while(!isQuit){
-               // Log.d("Timer time : ", String.valueOf(timer));
 
-                // Better way to sleep
-                SystemClock.sleep(1000);
+                Log.d("isQuit : ", this.getName() +" "+String.valueOf(isQuit));
+
 
                 timer--;
                 if(timer == 0) isQuit = true;
@@ -405,7 +470,7 @@ public class MainOperationActivity extends AppCompatActivity {
                         if( timer == 0 && chances >= 1){
                             chances--;
                             tvChances.setText( String.valueOf(chances) );
-                            timer = (level>15) ?  5 :  20 - level;
+                            timer = (level>15) ?  5 :  22 - level;
                             tvQuestion.setText(String.valueOf(++questionNo));
 
                             loadData();
@@ -413,19 +478,44 @@ public class MainOperationActivity extends AppCompatActivity {
 
                     }
                 });
+                // Better way to sleep
+                SystemClock.sleep(1000);
 
-//                if( timer == 0 && chances == 0 ) {
-//;
-//                    // Log.d("DEBUG : ","Exit from countdown");
-//
-//                    break;
-//                }
             }
 
         }
     }
 
+    class SetColors extends AsyncTask<Void, Integer, Integer>{
 
+
+        @Override
+        protected Integer doInBackground(Void... params) {
+
+            int x = 0;
+            Integer[] arrNum = new Integer[5];
+            Random r = new Random();
+            while(x < distraction){
+
+                for(int i = 0 ; i < arrNum.length; i++)
+                   arrNum[i] = r.nextInt(colors.length);
+                publishProgress(arrNum);
+                SystemClock.sleep(50);
+                x++;
+            }
+
+            return 1;
+        }
+
+        @Override
+        protected void onProgressUpdate(Integer... values) {
+            tvX.setBackgroundColor(Color.parseColor(colors[values[0]]));
+            tvY.setBackgroundColor(Color.parseColor(colors[values[1]]));
+            tvSign.setBackgroundColor(Color.parseColor(colors[values[2]]));
+            tvEq.setBackgroundColor(Color.parseColor(colors[values[3]]));
+            tvAnswer.setBackgroundColor(Color.parseColor(colors[values[4]]));
+        }
+    }
 
 }
 
