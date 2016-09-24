@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="3e2a3629bc018d65e63f42ae457fa19c85c3e464">
+        sha1="22de658eba03738b8d2cb53ff72028448b0db716">
         <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/instant-run_74c98ae61df3a07e089a5c5cd499145348e9ab7c.jar" />
     </item>
     <item
@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="296c03bfec97f131d4531ce433f2eb315cc86ad0">
+        sha1="6193c99913fd09306cb5f93cf0edbc372f5ee81e">
         <dex dex="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_d98ed397c9c6ee1f6c131e348f31295656b6bdfd.jar" />
     </item>
     <item

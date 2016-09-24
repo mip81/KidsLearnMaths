@@ -5,13 +5,12 @@ import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.DrawableRes;
+import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Chronometer;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -30,23 +29,23 @@ public class MainOperationActivity extends AppCompatActivity {
     private int lastY = 0;
 
     private TextView tvScore, tvLevel, tvQuestion, tvChances;
-    private TextView tvTime, tvName, tvAnswer, tvX, tvY, tvSign;
-    private Chronometer chrono;
+    private TextView tvTime, tvName, tvAnswer, tvX, tvY, tvSign, tvAccuracy;
     private Button btn1, btn2, btn3, btn4, btnBack;
     private String receivedAnswer = "";
     private String correctAnswer = "";
     private Button corrBtn;
 
 
-    private String activityName = "";
     private int score = 0;
     private int chances = 3;
     private int level = 1;
     private int questionNo = 1;
     private String sign = "";
-    private CountDown countThread = new CountDown();
+    private CountDown countThread = null;
     private boolean isQuit = false;
     private int max = 10; // Max for random
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,12 +55,14 @@ public class MainOperationActivity extends AppCompatActivity {
         // get operation from the main activity
         sign = this.getIntent().getExtras().getString("sign");
 
-        chrono = (Chronometer) findViewById(R.id.chronometer);
+
+        // DEFINE VARS OF VIEWS
         tvScore = (TextView) findViewById(R.id.tvScore);
         tvLevel = (TextView) findViewById(R.id.tvNumLevel);
         tvQuestion = (TextView) findViewById(R.id.tvNumQuestion);
         tvChances = (TextView) findViewById(R.id.tvChances);
         tvTime = (TextView) findViewById(R.id.tvTime);
+        tvAccuracy = (TextView) findViewById(R.id.tvAccuracy);
 
         tvX = (TextView) findViewById(R.id.tvX);
         tvY = (TextView) findViewById(R.id.tvY);
@@ -74,10 +75,12 @@ public class MainOperationActivity extends AppCompatActivity {
         btn3 = (Button) findViewById(R.id.btn3);
         btn4 = (Button) findViewById(R.id.btn4);
         btnBack = (Button) findViewById(R.id.btnBack);
+        // END DEFINING VARS
+
 
         handler = new Handler();
 
-        //Assign the logo
+        //ASSIGN THE LOGO
         switch (sign) {
             case "-":
                 ((ImageView) findViewById(R.id.ivLogo)).setImageResource(R.drawable.logo_sub);
@@ -93,10 +96,11 @@ public class MainOperationActivity extends AppCompatActivity {
                 break;
         }
 
-        loadData();
+        //HIDE ACTION BAR
         getSupportActionBar().hide();
 
-        countThread.start();
+        // LOAD DATA FOR THE GAME
+        loadData();
 
     }
 
@@ -106,13 +110,19 @@ public class MainOperationActivity extends AppCompatActivity {
     // LOAD DATA FOR NEW GAME
     private void loadData() {
 
+        countThread =  new CountDown();
+        countThread.start();
+
 
         tvScore.setText("" + score);
         tvChances.setText("" + chances);
         tvLevel.setText("" + level);
         tvScore.setText("" + score);
         tvQuestion.setText("" + questionNo);
+        tvAccuracy.setText( String.valueOf((score / questionNo) * 100) );
 
+
+        timer = (level>15) ?  5 :  20 - level;
 
         Random random = new Random();
 
@@ -148,14 +158,10 @@ public class MainOperationActivity extends AppCompatActivity {
             max = no1 + no1 + level;
         }
 
-
         // CONDITION FOR MULTIPLICATION
         if (sign.equals("*")) {
             max = (no1 * no1) + level;
         }
-
-
-
 
         // AFTER 5 Questions lebel up
         if (questionNo % 5 == 0) level++;
@@ -220,53 +226,63 @@ public class MainOperationActivity extends AppCompatActivity {
     }
 
 
-    //bitton answer click
 
+
+
+    /** ACTION - USER RESPOND
+     *  READ THE ANSWER FROM THE BTN NAME
+     *  COMPARE WITH CORRECT AND SHOW RIGHT ANSWR
+     * @param view
+     */
     public void btnClick(View view) {
 
 
+        final Drawable SAVEDBG = corrBtn.getBackground(); //save the BG of correct button
+        final Button savedCorrBtn = corrBtn; // save the correct button to change the correct answer
+            // stop the timer
+        isQuit = true;
+            // null the counter allow to do GC
+        countThread = null;
 
-        timer= (level>15) ?  5 :  20 - level;
-
-
+         // get answer from user
         receivedAnswer = ((Button) view).getText().toString();
 
-
+        // compare if answer is correct
         if (correctAnswer.equals(receivedAnswer)) {
             score++;
-            Toast toast = Toast.makeText(this, "CORRECT!", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(this, "WELL DONE!", Toast.LENGTH_SHORT);
             ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
                     .setGravity(Gravity.CENTER_HORIZONTAL);
             toast.setGravity(Gravity.TOP, 0, 0);
-
             toast.show();
 
-
+        // if answer is wrong show him or her the correct one
         } else {
-
+            // SHOW MSG AND CORRECT ANSWER
             Toast toast = Toast.makeText(this, "\tWRONG ANSWER! \n\n CORRECT ANSWER IS "+correctAnswer, Toast.LENGTH_SHORT);
-            ((TextView)((LinearLayout)toast.getView()).getChildAt(0))
-                    .setGravity(Gravity.CENTER_HORIZONTAL);
-            toast.setGravity(Gravity.TOP, -50, 0);
+            TextView tvToast = ((TextView)((LinearLayout)toast.getView()).getChildAt(0));
+                    tvToast.setGravity(Gravity.CENTER_HORIZONTAL);
+                    tvToast.setPadding(0,50,0,0);
 
+            toast.setGravity(Gravity.TOP, 0, 0);
             toast.show();
 
-            handler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    corrBtn.setBackgroundColor(Color.RED);
+            // DISPLAY CORRECT ANSWER BY CHANGING BG
+            savedCorrBtn.setBackgroundResource(R.drawable.btn_corr_answer);
 
-                }
-            }, 3000);
+//todo : to make text colors changing haotic
+//            Random r = new Random();
+//            int x = 0;
+//            while(x < 20){
+//                corrBtn.setTextColor(Color.rgb(r.nextInt(255), r.nextInt(255), r.nextInt(255)));
+//                SystemClock.sleep(100);
+//                x++;
+//            }
 
+            // Make buttons unclickable
+            disableBtn();
 
-            try {
-                Thread.sleep(5000);
-            }catch (Exception e){
-
-
-            }
-
+            // Reduce chances
             chances--;
         }
 
@@ -282,9 +298,18 @@ public class MainOperationActivity extends AppCompatActivity {
             startActivity(mainActivity);
         }
 
+        // delay changing question
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                questionNo++;
+                enableBtn();
+                savedCorrBtn.setBackground(SAVEDBG);
+                loadData();
 
-        questionNo++;
-        loadData();
+            }
+        }, 3000);
+
 
     }
 
@@ -295,9 +320,28 @@ public class MainOperationActivity extends AppCompatActivity {
     }
 
 
+    private void disableBtn(){
+        btn1.setClickable(false);
+        btn2.setClickable(false);
+        btn3.setClickable(false);
+        btn4.setClickable(false);
+
+    }
+
+    private void enableBtn(){
+        btn1.setClickable(true);
+        btn2.setClickable(true);
+        btn3.setClickable(true);
+        btn4.setClickable(true);
+    }
+
 
     // Class for counting the time
     class CountDown extends Thread{
+
+        CountDown(){
+            isQuit = false;
+        }
 
         public void run(){
 
@@ -338,7 +382,7 @@ public class MainOperationActivity extends AppCompatActivity {
                             tvChances.setText( String.valueOf(chances) );
                             timer = (level>15) ?  5 :  20 - level;
                             loadData();
-                            questionNo++;
+                            tvQuestion.setText(String.valueOf(++questionNo));
                         }
 
                     }

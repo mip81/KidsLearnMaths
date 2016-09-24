@@ -164,6 +164,10 @@
         "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_corr_answer.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_corr_answer.xml"
+    },
+    {
         "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/drawable/btn_plus.xml",
         "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/drawable/btn_plus.xml"
     },

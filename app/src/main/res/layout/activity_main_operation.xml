@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
@@ -11,11 +12,10 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="92dp"
-        android:layout_marginBottom="20dp"
         android:layout_margin="5dp"
         android:gravity="center|center_vertical|center_horizontal"
         android:layout_gravity="left"
-        android:paddingTop="10dp">
+        android:paddingTop="5dp">
 
 
         <ImageView
@@ -28,13 +28,37 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="71dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:text="Accuracy :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAccuracyLbl"
+                android:textStyle="normal|bold"
+                android:textSize="22sp"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAccuracy"
+                android:textSize="22sp"
+                android:textColor="#f3ec24"
+                android:textStyle="normal|bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
             android:layout_marginLeft="10dp">
 

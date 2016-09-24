@@ -4,29 +4,29 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="195097266465982"
+    timestamp="220099201463829"
     token="8017437982112300917"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="2433" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="176" />
+        duration="0" />
     <task
         name="verifier"
-        duration="94" />
+        duration="0" />
 
     <artifact
         location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="195097266465982"
+        timestamp="220099201463829"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
