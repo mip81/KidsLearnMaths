@@ -4,33 +4,47 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="346708456246709"
+    timestamp="381871466006997"
     token="8017437982112300917"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="305" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
-        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="346708456246709"
+        timestamp="381517111536858"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="381784431747149"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/builds/debug/381784431747149/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="381871466006997"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

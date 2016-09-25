@@ -24,6 +24,10 @@
         "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/layout/dialog_layout.xml",
+        "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/src/main/res/layout/dialog_layout.xml"
+    },
+    {
         "merged": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/mikhailpastushkov/AndroidStudioProjects/KLM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_up_container.xml"
     },

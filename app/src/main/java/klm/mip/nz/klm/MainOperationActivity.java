@@ -22,6 +22,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.Random;
@@ -47,6 +49,7 @@ public class MainOperationActivity extends AppCompatActivity {
     private String correctAnswer = "";
     private Button corrBtn;
     private int distraction = 10; // color distraction
+    private Typeface tf = null;
 
 
     private int score = 0;
@@ -72,7 +75,7 @@ public class MainOperationActivity extends AppCompatActivity {
          //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
 
         //define custom font
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Rabbit On The Moon.ttf");
+        tf = Typeface.createFromAsset(getAssets(), "fonts/Rabbit On The Moon.ttf");
 
         // get operation from the main activity
         sign = this.getIntent().getExtras().getString("sign");
@@ -374,7 +377,9 @@ public class MainOperationActivity extends AppCompatActivity {
                     if(DEBUG) Log.d("WAIT ENDS OF THREAD: ", countThread.getName());
                 }catch (Exception e){}
 
-                showDialog("GAME OVER!", new StringBuilder("Your level is " +level+" \nDon't give up!").toString());
+
+
+                showDialog("GAME OVER!","Don't give up!", "Your level is : "+level);
 
         }
 
@@ -448,11 +453,30 @@ public class MainOperationActivity extends AppCompatActivity {
     }
 
     // SHOW END DIALOG
-    private void showDialog(String title, String msg ){
-        new DialogHelper()
-                .setTitle(title)
-                .setMainActivity(new Intent(getApplicationContext(), MainActivity.class))
-                .setMessage(msg).show(getFragmentManager(),"");;
+
+    /**
+     * Show DIALOG WINDOW
+     *
+     */
+    private void showDialog(String title, String msg1, String msg2 ){
+
+        DialogHelper dh = new DialogHelper()
+                .setContent(new Intent(getApplicationContext(), MainActivity.class),
+                        title, msg1, msg2);
+//        View view = dh.getView();
+
+
+        // Getting TV from the AlertDialog Layer and change settings
+
+//        TextView tvLevel =  (TextView) view.findViewById(R.id.tvAWLevelInfo);
+//            tvLevel.setTypeface(tf);
+//        TextView tvMsg =  (TextView) view.findViewById(R.id.tvAWMsg);
+//            tvLevel.setTypeface(tf);
+//
+//        tvMsg.setText(msg);
+//        tvLevel.setText( "Your level : "+String.valueOf(level) );
+
+        dh.show(getFragmentManager(),"");;
     }
 
     // Class for counting the time
@@ -478,7 +502,7 @@ public class MainOperationActivity extends AppCompatActivity {
 
                         if(timer == 0 && chances == 0  ){
 
-                                showDialog("GAME OVER!", "Sorry! Time is over!");
+                                showDialog("GAME OVER!", "Sorry! Time is over!" , "Your level : "+ level);
 
                         }
 
